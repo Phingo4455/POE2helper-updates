@@ -38,6 +38,9 @@ jobs:
         run: npm run update
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # POE2DB is contacted only by the fixed daily schedule (18:17 UTC).
+          # Manual reruns reuse the last validated tablet cache.
+          ALLOW_POE2DB_REFRESH: ${{ github.event_name == 'schedule' && '1' || '0' }}
 
       - name: Publish changed data
         shell: bash
