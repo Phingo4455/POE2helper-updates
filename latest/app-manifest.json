@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "version": "0.2.0",
+  "publishedAt": "2026-08-02T00:00:00.000Z",
+  "mandatory": false,
+  "releaseNotes": [
+    "新增启动及每 6 小时自动检查。",
+    "新增开荒路线在线热更新与版本提示。",
+    "新增 APP 内更新日志和 Windows 系统通知。",
+    "新增程序安装包下载与安装入口。"
+  ],
+  "downloadUrl": "https://github.com/Phingo4455/POE2helper-updates/releases/download/v0.2.0/POE2helper-0.2.0-Setup.exe",
+  "sha256": "e67a2734cba65e8cf777795c5d07ac682c0eef71e3f05b78b73ed6a6c15ab929",
+  "size": 94310984
+}
