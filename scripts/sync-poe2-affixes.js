@@ -4,6 +4,7 @@ const OpenCC = require('opencc-js');
 
 const root = path.resolve(__dirname, '..');
 const outputDir = path.join(root, 'generated');
+const tabletCachePath = path.join(root, 'latest', 'poe2db-tablet-cache.json');
 const baseHeaders = {'user-agent': 'POE2-Route-Companion/0.1 (offline affix sync)'};
 const toSimplified = OpenCC.Converter({from: 'tw', to: 'cn'});
 
@@ -15,16 +16,44 @@ function headersFor(url) {
   return headers;
 }
 
-async function getJson(url) {
-  const response = await fetch(url, {headers: headersFor(url)});
-  if (!response.ok) throw new Error(`${response.status} ${url}`);
-  return response.json();
+function wait(milliseconds) {
+  return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
 
-async function getText(url) {
-  const response = await fetch(url, {headers: headersFor(url)});
-  if (!response.ok) throw new Error(`${response.status} ${url}`);
-  return response.text();
+async function fetchWithRetry(url, parse) {
+  const attempts = new URL(url).hostname === 'poe2db.tw' ? 4 : 3;
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const response = await fetch(url, {headers: headersFor(url), signal: AbortSignal.timeout(30000)});
+      if (response.ok) return parse(response);
+      const retryable = response.status === 429 || response.status >= 500;
+      const error = new Error(`${response.status} ${url}`);
+      if (!retryable || attempt === attempts) throw error;
+      lastError = error;
+      const retryAfter = Number(response.headers.get('retry-after'));
+      const delay = Number.isFinite(retryAfter) && retryAfter > 0
+        ? Math.min(retryAfter * 1000, 30000)
+        : 1500 * (2 ** (attempt - 1));
+      console.warn(`Transient upstream error; retry ${attempt}/${attempts} in ${delay} ms: ${error.message}`);
+      await wait(delay);
+    } catch (error) {
+      lastError = error;
+      if (attempt === attempts || !/fetch failed|timeout|aborted|429|5\d\d/i.test(String(error?.message || error))) throw error;
+      const delay = 1500 * (2 ** (attempt - 1));
+      console.warn(`Transient network error; retry ${attempt}/${attempts} in ${delay} ms: ${error.message}`);
+      await wait(delay);
+    }
+  }
+  throw lastError;
+}
+
+function getJson(url) {
+  return fetchWithRetry(url, response => response.json());
+}
+
+function getText(url) {
+  return fetchWithRetry(url, response => response.text());
 }
 
 function flattenTradeGroups(data) {
@@ -177,6 +206,58 @@ function buildTabletGroups(enHtml, twHtml) {
   }));
 }
 
+function initialTabletCache() {
+  try {
+    const cache = JSON.parse(fs.readFileSync(tabletCachePath, 'utf8'));
+    if (cache?.schemaVersion === 1 && Array.isArray(cache.groups) && cache.groups.length >= 20) return cache;
+  } catch { /* Seed from the last published and validated affix snapshot. */ }
+  const publishedPath = path.join(root, 'latest', 'poe2-affix-data.json');
+  const published = JSON.parse(fs.readFileSync(publishedPath, 'utf8'));
+  const groups = published.groups.filter(group => String(group.id || '').startsWith('tablet:'));
+  if (groups.length < 20) throw new Error('没有可用于 POE2DB 降级的已校验碑牌词缀缓存');
+  return {
+    schemaVersion: 1,
+    realm: 'poe2',
+    source: 'https://poe2db.tw/us/Tablet + /tw/Tablet',
+    lastAttemptDate: String(published.generatedAt || '').slice(0, 10),
+    lastSuccessAt: published.generatedAt || '',
+    groups
+  };
+}
+
+function saveTabletCache(cache) {
+  fs.mkdirSync(path.dirname(tabletCachePath), {recursive: true});
+  fs.writeFileSync(tabletCachePath, `${JSON.stringify(cache)}\n`);
+}
+
+async function loadTabletGroups() {
+  const cache = initialTabletCache();
+  const today = new Date().toISOString().slice(0, 10);
+  const allowedWindow = process.env.ALLOW_POE2DB_REFRESH === '1' || process.env.FORCE_POE2DB_REFRESH === '1';
+  if (!allowedWindow || cache.lastAttemptDate === today) {
+    console.log(`Using validated POE2DB tablet cache (${cache.groups.length} groups; last success ${cache.lastSuccessAt || 'unknown'}).`);
+    saveTabletCache(cache);
+    return cache.groups;
+  }
+
+  cache.lastAttemptDate = today;
+  try {
+    const enHtml = await getText('https://poe2db.tw/us/Tablet');
+    await wait(1800);
+    const twHtml = await getText('https://poe2db.tw/tw/Tablet');
+    const groups = buildTabletGroups(enHtml, twHtml);
+    cache.groups = groups;
+    cache.lastSuccessAt = new Date().toISOString();
+    delete cache.lastError;
+    console.log(`Refreshed POE2DB tablet cache (${groups.length} groups).`);
+  } catch (error) {
+    cache.lastError = `${new Date().toISOString()} ${error.message}`;
+    console.warn(`POE2DB refresh failed; keeping ${cache.groups.length} previously validated tablet groups: ${error.message}`);
+  }
+  saveTabletCache(cache);
+  return cache.groups;
+}
+
 function parseNumericTable(block, key) {
   const body = block.match(new RegExp(`\\b${key}\\s*=\\s*\\{([^}]*)\\}`))?.[1] || '';
   return Object.fromEntries([...body.matchAll(/([A-Za-z][A-Za-z0-9_]*)\s*=\s*(-?\d+(?:\.\d+)?)/g)]
@@ -278,19 +359,17 @@ const TABLET_ITEMS = [
 
 async function main() {
   fs.mkdirSync(outputDir, {recursive: true});
-  const [enTrade, twTrade, modItemLua, pobTree, tabletEn, tabletTw] = await Promise.all([
+  const [enTrade, twTrade, modItemLua, pobTree] = await Promise.all([
     getJson('https://www.pathofexile.com/api/trade2/data/stats'),
     getJson('https://pathofexile.tw/api/trade2/data/stats'),
     getText('https://raw.githubusercontent.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/dev/src/Data/ModItem.lua'),
-    getJson('https://api.github.com/repos/PathOfBuildingCommunity/PathOfBuilding-PoE2/git/trees/dev?recursive=1'),
-    getText('https://poe2db.tw/us/Tablet'),
-    getText('https://poe2db.tw/tw/Tablet')
+    getJson('https://api.github.com/repos/PathOfBuildingCommunity/PathOfBuilding-PoE2/git/trees/dev?recursive=1')
   ]);
 
   const tradeStats = buildTradeStats(enTrade, twTrade);
   const tradeById = new Map(tradeStats.map(entry => [entry.id, entry]));
   const pobGroups = groupPobMods(parsePobMods(modItemLua, tradeById));
-  const tabletGroups = buildTabletGroups(tabletEn, tabletTw);
+  const tabletGroups = await loadTabletGroups();
   const translationTerms = JSON.parse(fs.readFileSync(path.join(outputDir, 'poe2-translations.json'), 'utf8'));
   const translations = new Map(translationTerms.map(term => [term.en, term]));
   const basePaths = pobTree.tree.filter(item => item.type === 'blob' && /^src\/Data\/Bases\/[^/]+\.lua$/.test(item.path)).map(item => item.path);
