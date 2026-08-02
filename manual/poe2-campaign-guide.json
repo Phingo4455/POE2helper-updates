@@ -1,0 +1,897 @@
+{
+  "schemaVersion": 1,
+  "realm": "poe2",
+  "guideVersion": "1.2026.08.02.1",
+  "gameVersion": "0.5.1",
+  "updatedAt": "2026-08-02T00:00:00.000Z",
+  "sourceRevision": "poe2wiki-2026-06-03",
+  "sources": [
+    "https://www.poe2wiki.net/wiki/Guide:Acts_quick_guide",
+    "https://poe2leveling.com/"
+  ],
+  "releaseNotes": [
+    "首次启用开荒路线在线热更新。"
+  ],
+  "routes": [
+    {
+      "id": "act1",
+      "label": "第一幕",
+      "tasks": [
+        [
+          "required",
+          "河岸 → 克利尔菲营地",
+          "击败 Bloated Miller；进城与 Renly 交谈领取 1 级技能宝石。"
+        ],
+        [
+          "reward",
+          "克利尔菲：寒冷抗性",
+          "击败 Beira，使用 Head of the Winter Wolf，永久 +10% 冰冷抗性。"
+        ],
+        [
+          "required",
+          "格雷尔伍德 → 红谷",
+          "在红谷启动 3 个锈蚀方尖碑，击败 Rust King；回城找 Renly，再回格雷尔伍德开启 3 个符文封印。"
+        ],
+        [
+          "required",
+          "阴森缠林 → 永恒墓园",
+          "墓园分别进入 Consort Tomb 与 Praetor Mausoleum，击败 Asinia、Draven 取得两块钥匙，再击败 Lachlann。"
+        ],
+        [
+          "reward",
+          "狩猎场：2 点天赋",
+          "击败 Crowbell，使用 Book of Specialisation，获得 2 个武器组天赋点。"
+        ],
+        [
+          "reward",
+          "弗雷索恩：30 精魂",
+          "启动 3 个小型仪式坛，再于大祭坛击败 King in the Mists，永久 +30 精魂。"
+        ],
+        [
+          "reward",
+          "奥甘农地 → 奥甘村",
+          "取得 Una 的鲁特琴并回城交付，获得 2 点天赋；村庄首次角色拾取 Smithing Tools 解锁拆解台，然后击败 Executioner。"
+        ],
+        [
+          "reward",
+          "奥甘庄园：20 生命",
+          "庄园一层击败 Candlemass 并使用其精华，永久 +20 最大生命。"
+        ],
+        [
+          "required",
+          "奥甘庄园：幕终 Boss",
+          "下层击败 Geonor，回营地与众人交谈，选择追踪巨兽进入第二幕。"
+        ]
+      ]
+    },
+    {
+      "id": "act2",
+      "label": "第二幕",
+      "tasks": [
+        [
+          "required",
+          "瓦斯提里外围 → 阿杜拉车队",
+          "击败 Rathbreaker，返回入口与 Zarka 交谈，登上车队。"
+        ],
+        [
+          "required",
+          "莫顿采石场 → 莫顿矿井",
+          "沿铁轨推进，击败 Rudja 并救出 Risu，回车队交任务。"
+        ],
+        [
+          "trial",
+          "叛徒通道：升华钥匙",
+          "开启远古封印并击败 Balbala，取得用于首次塞赫玛试炼的任务物品。"
+        ],
+        [
+          "required",
+          "哈拉尼之门",
+          "召唤 Asala 开门并击败 Jamanra；回车队解锁 Trial of the Sekhemas，可在战力足够时完成首次升华。"
+        ],
+        [
+          "required",
+          "乳齿象荒地 → 骨坑",
+          "先点亮骨坑传送点；击败 Iktab 与 Ekbab，取得象牙，同时收集 Sun Clan Relic。"
+        ],
+        [
+          "reward",
+          "凯斯：2 点天赋",
+          "收集 Kabala Clan Relic，击败 Kabala，使用专精之书获得 2 点天赋。"
+        ],
+        [
+          "required",
+          "失落之城 → 凯斯之心",
+          "经埋葬神殿进入凯斯之心，击败 Azarian，点燃水之女神，带回余烬。"
+        ],
+        [
+          "choice",
+          "泰坦之谷：可更换增益",
+          "启动 3 个远古封印；将两件部族圣物放入传送点附近的徽章，选择一个之后仍可更换的增益。"
+        ],
+        [
+          "required",
+          "泰坦洞穴",
+          "击败 Zalmarath，取得 Flame Ruby；回车队吹响号角后前往 Deshar。"
+        ],
+        [
+          "reward",
+          "德沙尖塔：闪电抗性",
+          "调查 Sisters of Garukhan，永久 +10% 闪电抗性；随后击败 Tor Gul。"
+        ],
+        [
+          "required",
+          "无畏舰：幕终 Boss",
+          "登上 Dreadnought 并击败 Jamanra；回车队完成对话，前往 Sandswept Marsh。"
+        ]
+      ]
+    },
+    {
+      "id": "act3",
+      "label": "第三幕",
+      "tasks": [
+        [
+          "required",
+          "风沙沼泽 → 金字塔营地",
+          "进入营地，与 Alva、Oswald 和 Hooded One 交谈，从上方进入丛林遗迹。"
+        ],
+        [
+          "reward",
+          "丛林遗迹：2 点天赋",
+          "击败 Silverfist，使用专精之书获得 2 点天赋；找到毒液墓穴附近传送点。"
+        ],
+        [
+          "required",
+          "感染荒地 → 毒液墓穴",
+          "先找到 Alva；进入毒液墓穴取得 Corpse-snake Venom，回城交给 Servi。"
+        ],
+        [
+          "trial",
+          "奇美拉湿地：第二升华入口",
+          "先点亮混沌试炼传送点；击败 Xyclucian，取得刻印 Ultimatum，并进入 Jiquani 机械迷城。"
+        ],
+        [
+          "reward",
+          "机械迷城：火焰抗性",
+          "收集小型灵魂核心开门，击败 Blackjaw，使用 Flame Core，永久 +10% 火焰抗性。"
+        ],
+        [
+          "required",
+          "Jiquani 圣所 → 马特兰水道",
+          "放入两枚中型核心，击败 Zicoatly 取大型核心；回丛林祭坛启动水道并拉下水闸。"
+        ],
+        [
+          "reward",
+          "阿扎克泥沼：30 精魂",
+          "击败 Ignagduk，取得长矛并使用 Gemrot Skull，永久 +30 精魂。"
+        ],
+        [
+          "unlock",
+          "熔岩宝库：重铸台",
+          "首个角色击败 Mektul，解锁 Reforging Bench；已有账号解锁时可跳过。"
+        ],
+        [
+          "required",
+          "污秽之巅 → 科佩克神庙",
+          "击败 Queen of Filth 取得门像；回营地开门进入神庙并击败 Ketzuli。"
+        ],
+        [
+          "reward",
+          "乌特萨尔 → 阿戈拉特：2 点天赋",
+          "在乌特萨尔/阿戈拉特取得 Sacrificial Heart，于阿戈拉特祭坛刺穿心脏，获得 2 点天赋。"
+        ],
+        [
+          "required",
+          "黑色密室：幕终 Boss",
+          "击败 Doryani，等待掉落出现；回营地依次完成 Doryani、Alva、Hooded One 的对话。"
+        ]
+      ]
+    },
+    {
+      "id": "act4",
+      "label": "第四幕",
+      "tasks": [
+        [
+          "required",
+          "金斯马奇启航",
+          "与 Doryani、Alva、Tujen 交谈，在码头找 Makoru 选岛；本幕岛屿顺序并非完全固定。"
+        ],
+        [
+          "required",
+          "Whakapanu → Singing Caverns",
+          "取得 Petrified Pirate，进入歌唱洞穴击败 Diamora，并与 Matiki 交谈。"
+        ],
+        [
+          "unlock",
+          "海岸藏身处",
+          "回金斯马奇与 Ange 交谈；首个角色清理 Shoreline Hideout，解锁藏身处。"
+        ],
+        [
+          "required",
+          "Shrike Island → 废弃监狱",
+          "击败 Scourge of the Skies；在监狱刷出 Chapel Key，开礼拜堂并选择药剂增益。"
+        ],
+        [
+          "required",
+          "单独监禁区",
+          "击败 The Prisoner，与 Hooded One 交谈后前往 Isle of Kin。"
+        ],
+        [
+          "reward",
+          "Isle of Kin：2 点天赋",
+          "在竞技场击败 Blind Beast，获得 2 点天赋；再进 Volcanic Warrens 击败 Krutog。"
+        ],
+        [
+          "reward",
+          "Eye of Hinekora：纹身与天赋",
+          "完成火、自然、冰三项考验；在 Hall of the Dead 击败 Yama 获得 2 点天赋，再进入祖灵试炼找 Navali 选择纹身。"
+        ],
+        [
+          "optional",
+          "Kedge Bay（完全可选）",
+          "进入 Journey’s End，击败 Captain Harlin；此岛不是主线必需，可在追求速度时跳过。"
+        ],
+        [
+          "optional",
+          "Plunder’s Point（可选）",
+          "仅在集齐 4 张撕裂地图后开放；完成远征事件，不影响主线通关。"
+        ],
+        [
+          "required",
+          "Arasthas → Excavation",
+          "护送 Missionary Lorandis、破坏护盾，击败 Torvian；进入挖掘场击败 Benedictus。"
+        ],
+        [
+          "required",
+          "Ngakanu：幕终",
+          "进入 Heart of the Tribe，击败 Tavaki 并完成对话，随后开始三个间章。"
+        ]
+      ]
+    },
+    {
+      "id": "int1",
+      "label": "间章一",
+      "tasks": [
+        [
+          "required",
+          "返回 Ogham → Refuge",
+          "与 Hooded One 选择前往 Ogham；在 Refuge 与 Hooded One、Renly、Finn 交谈。"
+        ],
+        [
+          "required",
+          "焦灼农田 → Serle 巨石阵",
+          "击败 Isolde 与 Heldra；启动 6 个符文巨石，在中央击败 Siora。"
+        ],
+        [
+          "required",
+          "Blackwood → Holten",
+          "穿过黑森林进入 Holten，分别点亮 Wolvenhold 与 Holden Estate 的传送点。"
+        ],
+        [
+          "reward",
+          "Wolvenhold：2 点天赋",
+          "击败 Oswin，使用掉落的任务物品获得 2 点天赋。"
+        ],
+        [
+          "required",
+          "Holden Estate",
+          "击败 Thane Wulfric 与 Lady Elyswyth；回 Refuge 找 Renly，再前往 Vastiri。"
+        ]
+      ]
+    },
+    {
+      "id": "int2",
+      "label": "间章二",
+      "tasks": [
+        [
+          "required",
+          "Kaari Bazar → Khari Crossing",
+          "与 Asala、Zarka、Risu 交谈，从集市进入 Khari Crossing。"
+        ],
+        [
+          "reward",
+          "Skullmaw Stairway：5% 生命",
+          "在 Khari Crossing 北侧进入 Skullmaw Stairway，使用 Molten One’s Gift，永久 +5% 最大生命。"
+        ],
+        [
+          "reward",
+          "Khari Crossing：2 点天赋",
+          "击败 Akthi 与 Anundr；点亮 Pools of Khatal、Galai Gates 传送点，回集市找 Risu 获得 2 点天赋。"
+        ],
+        [
+          "required",
+          "Pools of Khatal → Sel Khari Sanctuary",
+          "进入圣所，击败 Elzarah 并与 Asala 交谈。两个 Barya 支线只奖励稀有装备，可选。"
+        ],
+        [
+          "choice",
+          "Galai Gates → Qimah",
+          "击败 Vornas 后进入 Qimah；调查 Orbala’s Pillar，选择之后可更换的增益。"
+        ],
+        [
+          "required",
+          "Qimah Reservoir",
+          "击败 Azmadi，启动 Grand Barya 并与 Jado 交谈；回 Refuge 前往 Mount Kriar。"
+        ]
+      ]
+    },
+    {
+      "id": "int3",
+      "label": "间章三",
+      "tasks": [
+        [
+          "required",
+          "Glade → Ashen Forest → Kriar Village",
+          "完成营地对话，穿过 Ashen Forest 进入 Kriar Village。"
+        ],
+        [
+          "reward",
+          "Kriar Village：40 精魂",
+          "击败 Lythara，使用 Gemcrust Skull，永久 +40 精魂，并取得 14 级精魂宝石。"
+        ],
+        [
+          "reward",
+          "Glacial Tarn",
+          "进入 Howling Caves 击败 Abominable Yeti，取得 Icy Tusks 并获得 2 点天赋；返回后击败 Rakkar。"
+        ],
+        [
+          "reward",
+          "Kriar Peaks：免费传奇",
+          "与 Elder Madox 交谈领取一件免费传奇装备。"
+        ],
+        [
+          "required",
+          "Etched Ravine → Cuachic Vault",
+          "击败 Stormgore；进入宝库击败 Zelina 与 Zolin，召唤 Doryani 完成对话。"
+        ],
+        [
+          "reward",
+          "完成间章并进入异界",
+          "传送金斯马奇找 Hooded One，领取全部间章完成奖励 2 点天赋后前往 Oriath；在 Ziggurat Refuge 找 Hooded One 与 Doryani，完成第一张地图。"
+        ]
+      ]
+    }
+  ],
+  "areaRouteAliases": {
+    "act1-0": [
+      "Riverbank",
+      "Clearfell Encampment"
+    ],
+    "act1-1": [
+      "Clearfell"
+    ],
+    "act1-2": [
+      "Grelwood",
+      "Red Vale"
+    ],
+    "act1-3": [
+      "Grim Tangle",
+      "Cemetery of the Eternals",
+      "Tomb of the Consort",
+      "Consort Tomb",
+      "Mausoleum of the Praetor",
+      "Praetor Mausoleum",
+      "配偶的墓室",
+      "王妃之墓",
+      "執政官陵墓"
+    ],
+    "act1-4": [
+      "Hunting Grounds"
+    ],
+    "act1-5": [
+      "Freythorn"
+    ],
+    "act1-6": [
+      "Ogham Farmlands",
+      "Ogham Village"
+    ],
+    "act1-7": [
+      "The Manor Ramparts",
+      "Ogham Manor"
+    ],
+    "act1-8": [
+      "Ogham Manor"
+    ],
+    "act2-0": [
+      "Vastiri Outskirts",
+      "Ardura Caravan"
+    ],
+    "act2-1": [
+      "Mawdun Quarry",
+      "Mawdun Mine"
+    ],
+    "act2-2": [
+      "Traitor's Passage",
+      "Traitors Passage"
+    ],
+    "act2-3": [
+      "Halani Gates",
+      "Trial of the Sekhemas"
+    ],
+    "act2-4": [
+      "Mastodon Badlands",
+      "Bone Pits"
+    ],
+    "act2-5": [
+      "Keth"
+    ],
+    "act2-6": [
+      "Lost City",
+      "Buried Shrines",
+      "Heart of Keth"
+    ],
+    "act2-7": [
+      "Valley of the Titans"
+    ],
+    "act2-8": [
+      "Titan Grotto"
+    ],
+    "act2-9": [
+      "Deshar",
+      "Path of Mourning",
+      "Spires of Deshar"
+    ],
+    "act2-10": [
+      "Dreadnought",
+      "Dreadnought Vanguard"
+    ],
+    "act3-0": [
+      "Sandswept Marsh",
+      "Ziggurat Encampment"
+    ],
+    "act3-1": [
+      "Jungle Ruins"
+    ],
+    "act3-2": [
+      "Infested Barrens",
+      "Venom Crypts"
+    ],
+    "act3-3": [
+      "Chimeral Wetlands",
+      "Temple of Chaos"
+    ],
+    "act3-4": [
+      "Jiquani's Machinarium",
+      "Jiquanis Machinarium"
+    ],
+    "act3-5": [
+      "Jiquani's Sanctum",
+      "Jiquanis Sanctum",
+      "Matlan Waterways",
+      "Drowned City"
+    ],
+    "act3-6": [
+      "Azak Bog"
+    ],
+    "act3-7": [
+      "Molten Vault"
+    ],
+    "act3-8": [
+      "Apex of Filth",
+      "Temple of Kopec"
+    ],
+    "act3-9": [
+      "Utzaal",
+      "Aggorat"
+    ],
+    "act3-10": [
+      "Black Chambers"
+    ],
+    "act4-0": [
+      "Kingsmarch"
+    ],
+    "act4-1": [
+      "Whakapanu",
+      "Singing Caverns"
+    ],
+    "act4-2": [
+      "Shoreline Hideout"
+    ],
+    "act4-3": [
+      "Shrike Island",
+      "Abandoned Prison"
+    ],
+    "act4-4": [
+      "Solitary Confinement"
+    ],
+    "act4-5": [
+      "Isle of Kin",
+      "Volcanic Warrens"
+    ],
+    "act4-6": [
+      "Eye of Hinekora",
+      "Hall of the Dead",
+      "Halls of the Dead",
+      "Trial of the Ancestors"
+    ],
+    "act4-7": [
+      "Kedge Bay",
+      "Journey's End",
+      "Journeys End"
+    ],
+    "act4-8": [
+      "Plunder's Point",
+      "Plunders Point"
+    ],
+    "act4-9": [
+      "Arastas",
+      "Arasthas",
+      "Excavation"
+    ],
+    "act4-10": [
+      "Ngakanu",
+      "Heart of the Tribe"
+    ],
+    "int1-0": [
+      "Ogham",
+      "Ogham Refuge"
+    ],
+    "int1-1": [
+      "Scorched Farmlands",
+      "Serle"
+    ],
+    "int1-2": [
+      "Blackwood",
+      "Holten"
+    ],
+    "int1-3": [
+      "Wolvenhold"
+    ],
+    "int1-4": [
+      "Holten Estate",
+      "Holden Estate"
+    ],
+    "int2-0": [
+      "Kaari Bazaar",
+      "Kaari Bazar",
+      "Khari Crossing"
+    ],
+    "int2-1": [
+      "Skullmaw Stairway"
+    ],
+    "int2-2": [
+      "Khari Crossing"
+    ],
+    "int2-3": [
+      "Pools of Khatal",
+      "Sel Khari Sanctuary"
+    ],
+    "int2-4": [
+      "Galai Gates",
+      "Qimah"
+    ],
+    "int2-5": [
+      "Qimah Reservoir"
+    ],
+    "int3-0": [
+      "Glade",
+      "Ashen Forest",
+      "Kriar Village"
+    ],
+    "int3-1": [
+      "Kriar Village"
+    ],
+    "int3-2": [
+      "Glacial Tarn",
+      "Howling Caves"
+    ],
+    "int3-3": [
+      "Kriar Peaks"
+    ],
+    "int3-4": [
+      "Etched Ravine",
+      "Cuachic Vault",
+      "蝕刻峽谷",
+      "蚀刻峡谷",
+      "庫阿奇克寶庫",
+      "库阿奇克宝库"
+    ],
+    "int3-5": [
+      "Oriath",
+      "Ziggurat Refuge"
+    ]
+  },
+  "terms": {
+    "Bloated Miller": "肿胀磨坊主（Bloated Miller）",
+    "Renly": "伦利（Renly）",
+    "Beira": "腐朽兽群的贝拉（Beira）",
+    "Head of the Winter Wolf": "冬狼之首（Head of the Winter Wolf）",
+    "Rust King": "锈蚀之王（Rust King）",
+    "Consort Tomb": "王妃之墓（Consort Tomb）",
+    "Praetor Mausoleum": "执政官陵墓（Praetor Mausoleum）",
+    "Asinia": "阿西妮娅（Asinia）",
+    "Draven": "德雷文（Draven）",
+    "Lachlann": "拉克兰（Lachlann）",
+    "Crowbell": "悬铃巨鸦（Crowbell）",
+    "Book of Specialisation": "专精之书（Book of Specialisation）",
+    "King in the Mists": "迷雾之王（King in the Mists）",
+    "Una": "乌娜（Una）",
+    "Smithing Tools": "锻造工具（Smithing Tools）",
+    "Executioner": "刽子手（Executioner）",
+    "Candlemass": "活祭烛光（Candlemass）",
+    "Geonor": "吉奥诺伯爵（Geonor）",
+    "Rathbreaker": "破誓者拉斯（Rathbreaker）",
+    "Zarka": "扎卡（Zarka）",
+    "Rudja": "鲁德娅（Rudja）",
+    "Risu": "莉苏（Risu）",
+    "Balbala": "叛徒芭芭拉（Balbala）",
+    "Asala": "塞赫玛·阿萨拉（Asala）",
+    "Jamanra": "复生之王贾曼拉（Jamanra）",
+    "Trial of the Sekhemas": "塞赫玛试炼（Trial of the Sekhemas）",
+    "Iktab": "伊克塔布（Iktab）",
+    "Ekbab": "艾克巴布（Ekbab）",
+    "Sun Clan Relic": "太阳部族圣物（Sun Clan Relic）",
+    "Kabala Clan Relic": "卡巴拉部族圣物（Kabala Clan Relic）",
+    "Kabala": "征服者卡巴拉（Kabala）",
+    "Azarian": "遗忘者阿扎里安（Azarian）",
+    "Zalmarath": "巨像扎尔玛拉斯（Zalmarath）",
+    "Flame Ruby": "烈焰红宝石（Flame Ruby）",
+    "Deshar": "德沙（Deshar）",
+    "Sisters of Garukhan": "迦楼罗之姐妹（Sisters of Garukhan）",
+    "Tor Gul": "亵渎者托尔·古尔（Tor Gul）",
+    "Dreadnought": "无畏舰（Dreadnought）",
+    "Sandswept Marsh": "风沙沼泽（Sandswept Marsh）",
+    "Alva": "阿尔瓦（Alva）",
+    "Oswald": "奥斯瓦德（Oswald）",
+    "Hooded One": "兜帽人（Hooded One）",
+    "Silverfist": "银拳（Silverfist）",
+    "Corpse-snake Venom": "尸蛇毒液（Corpse-snake Venom）",
+    "Servi": "瑟维（Servi）",
+    "Xyclucian": "奇美拉·希克卢西安（Xyclucian）",
+    "Ultimatum": "最后通牒（Ultimatum）",
+    "Jiquani": "吉夸尼（Jiquani）",
+    "Blackjaw": "黑颚（Blackjaw）",
+    "Flame Core": "烈焰核心（Flame Core）",
+    "Zicoatly": "兹科亚特利（Zicoatly）",
+    "Ignagduk": "沼泽巫婆伊格纳杜克（Ignagduk）",
+    "Gemrot Skull": "腐宝头骨（Gemrot Skull）",
+    "Mektul": "熔炉大师梅克图尔（Mektul）",
+    "Reforging Bench": "重铸台（Reforging Bench）",
+    "Queen of Filth": "污秽女王（Queen of Filth）",
+    "Ketzuli": "太阳高阶祭司凯兹图利（Ketzuli）",
+    "Sacrificial Heart": "献祭之心（Sacrificial Heart）",
+    "Doryani": "多里亚尼（Doryani）",
+    "Tujen": "图金（Tujen）",
+    "Makoru": "马科鲁（Makoru）",
+    "Whakapanu": "瓦卡帕努（Whakapanu）",
+    "Singing Caverns": "歌唱洞穴（Singing Caverns）",
+    "Petrified Pirate": "石化海盗（Petrified Pirate）",
+    "Diamora": "死亡之歌迪亚莫拉（Diamora）",
+    "Matiki": "马提基（Matiki）",
+    "Ange": "安吉（Ange）",
+    "Shoreline Hideout": "海岸藏身处（Shoreline Hideout）",
+    "Shrike Island": "伯劳岛（Shrike Island）",
+    "Scourge of the Skies": "天灾之翼（Scourge of the Skies）",
+    "Chapel Key": "礼拜堂钥匙（Chapel Key）",
+    "The Prisoner": "囚徒（The Prisoner）",
+    "Isle of Kin": "血亲岛（Isle of Kin）",
+    "Blind Beast": "盲兽（Blind Beast）",
+    "Volcanic Warrens": "火山洞窟（Volcanic Warrens）",
+    "Krutog": "血亲之主克鲁托格（Krutog）",
+    "Eye of Hinekora": "悉妮蔻拉之眼（Eye of Hinekora）",
+    "Hall of the Dead": "亡者大厅（Hall of the Dead）",
+    "Yama": "白之亚玛（Yama）",
+    "Navali": "娜瓦莉（Navali）",
+    "Kedge Bay": "凯奇湾（Kedge Bay）",
+    "Journey’s End": "旅途终点（Journey’s End）",
+    "Captain Harlin": "哈林船长（Captain Harlin）",
+    "Plunder’s Point": "掠夺者据点（Plunder’s Point）",
+    "Arasthas": "阿拉斯塔斯（Arasthas）",
+    "Excavation": "挖掘场（Excavation）",
+    "Missionary Lorandis": "传教士洛兰迪斯（Missionary Lorandis）",
+    "Torvian": "救主之手托维安（Torvian）",
+    "Benedictus": "乌托邦先驱本尼迪克图斯（Benedictus）",
+    "Ngakanu": "恩加卡努（Ngakanu）",
+    "Heart of the Tribe": "部族之心（Heart of the Tribe）",
+    "Tavaki": "塔瓦基（Tavaki）",
+    "Ogham": "欧甘（Ogham）",
+    "Refuge": "避难所（Refuge）",
+    "Finn": "芬恩（Finn）",
+    "Isolde": "白幕伊索尔德（Isolde）",
+    "Heldra": "黑焰赫尔德拉（Heldra）",
+    "Siora": "迷雾之刃希奥拉（Siora）",
+    "Blackwood": "黑森林（Blackwood）",
+    "Holten": "霍尔滕（Holten）",
+    "Wolvenhold": "沃尔文堡（Wolvenhold）",
+    "Holden Estate": "霍尔登庄园（Holden Estate）",
+    "Oswin": "恐惧典狱长奥斯温（Oswin）",
+    "Thane Wulfric": "领主乌尔弗里克（Thane Wulfric）",
+    "Lady Elyswyth": "艾莉丝维斯夫人（Lady Elyswyth）",
+    "Vastiri": "瓦斯提里（Vastiri）",
+    "Kaari Bazar": "卡里集市（Kaari Bazar）",
+    "Khari Crossing": "卡里渡口（Khari Crossing）",
+    "Skullmaw Stairway": "颅喉阶梯（Skullmaw Stairway）",
+    "Molten One’s Gift": "熔火者之赐（Molten One’s Gift）",
+    "Akthi": "终末毒刺阿克蒂（Akthi）",
+    "Anundr": "沙虫阿南德（Anundr）",
+    "Pools of Khatal": "卡塔尔水池（Pools of Khatal）",
+    "Galai Gates": "加莱之门（Galai Gates）",
+    "Sel Khari Sanctuary": "瑟尔卡里圣所（Sel Khari Sanctuary）",
+    "Elzarah": "眼镜蛇领主艾尔扎拉（Elzarah）",
+    "Barya": "巴雅（Barya）",
+    "Vornas": "邪焰沃纳斯（Vornas）",
+    "Qimah": "奇玛（Qimah）",
+    "Orbala’s Pillar": "奥巴拉之柱（Orbala’s Pillar）",
+    "Qimah Reservoir": "奇玛蓄水池（Qimah Reservoir）",
+    "Azmadi": "法里顿王子阿兹马迪（Azmadi）",
+    "Grand Barya": "大巴雅（Grand Barya）",
+    "Jado": "贾多（Jado）",
+    "Mount Kriar": "克里亚尔山（Mount Kriar）",
+    "Glade": "林间空地（Glade）",
+    "Ashen Forest": "灰烬森林（Ashen Forest）",
+    "Kriar Village": "克里亚尔村（Kriar Village）",
+    "Lythara": "莉萨拉（Lythara）",
+    "Gemcrust Skull": "宝壳头骨（Gemcrust Skull）",
+    "Glacial Tarn": "冰川湖（Glacial Tarn）",
+    "Howling Caves": "嚎风洞穴（Howling Caves）",
+    "Abominable Yeti": "可憎雪人（Abominable Yeti）",
+    "Icy Tusks": "冰冷长牙（Icy Tusks）",
+    "Rakkar": "拉卡尔（Rakkar）",
+    "Kriar Peaks": "克里亚尔峰（Kriar Peaks）",
+    "Elder Madox": "长老马多克斯（Elder Madox）",
+    "Etched Ravine": "蚀刻峡谷（Etched Ravine）",
+    "Cuachic Vault": "库阿奇克宝库（Cuachic Vault）",
+    "Stormgore": "风暴之血（Stormgore）",
+    "Zelina": "泽莉娜（Zelina）",
+    "Zolin": "佐林（Zolin）",
+    "Oriath": "奥瑞亚（Oriath）",
+    "Ziggurat Refuge": "金字塔避难所（Ziggurat Refuge）"
+  },
+  "typeLabels": {
+    "required": "主线",
+    "reward": "永久",
+    "trial": "升华",
+    "choice": "选择",
+    "unlock": "解锁",
+    "optional": "可选"
+  },
+  "tips": {
+    "act1-0": "沿河岸一直前进即可；路上大箱子通常足够补齐最初的技能和装备。",
+    "act1-1": "贝拉通常位于区域中央。若当前伤害不足，可以先点亮传送点，升级后再回来拿永久抗性。",
+    "act1-2": "初次进入格雷尔伍德时，可先分别找到阴森缠林和红谷入口并点亮传送点，减少往返距离。",
+    "act1-3": "王妃之墓与执政官陵墓各拿一块钥匙；完成一边后可直接传送回墓园，不必原路跑回。",
+    "act1-4": "狩猎场沿道路和路牌寻找奥甘农地；仪式事件附近的飞虫轨迹会指向弗雷索恩入口。",
+    "act1-5": "三个小祭坛全部完成后，大祭坛才会出现迷雾之王。30 精魂是所有角色都不应错过的永久奖励。",
+    "act1-6": "乌娜的鲁特琴位于道路后方被车辆阻挡的房屋；锻造工具在奥甘村靠近检查点的一栋房屋内。",
+    "act1-7": "活祭烛光位于庄园第一层，吉奥诺在下层；不要直接下楼而漏掉永久生命。",
+    "act1-8": "吉奥诺战分为多阶段，进场前补满药剂并尽量提高冰冷抗性；击杀后一定回克利尔菲营地完成全部对话。",
+    "act2-0": "瓦斯提里外围击败破誓者后，可传送回区域起点找扎卡，不必从 Boss 房徒步返回。",
+    "act2-1": "矿井内优先沿连续铁轨前进，通常比逐房间探索更容易找到鲁德娅。",
+    "act2-2": "芭芭拉对早期角色可能较难。可以先继续升级和更新装备，再回来取得首次升华钥匙。",
+    "act2-3": "首次塞赫玛试炼并非必须立刻完成；若荣誉值消耗过快，稍后提升移速和伤害再来。",
+    "act2-4": "乳齿象荒地出现的绿色地面裂纹会指向无光通道；骨坑内需击杀怪物直到部族圣物掉落。",
+    "act2-5": "两件部族圣物放入泰坦之谷徽章后可反复更换增益，不是不可逆选择。",
+    "act2-6": "失落之城先找埋葬神殿入口；凯斯之心击败阿扎里安后要调查水之女神并点燃她，单纯击杀 Boss 不会推进任务。",
+    "act2-7": "泰坦之谷需要找到三个远古封印；徽章靠近传送点，两件部族圣物都放入后才可选择增益。",
+    "act2-8": "吹号角前先在车队完成所有对话；前往哈拉尼之门但不要进入区域，在车队顶部吹响号角。",
+    "act2-9": "德沙区域可在塔楼附近寻找倒下的德卡拉；尖塔内调查迦楼罗姐妹即可获得永久闪电抗性。",
+    "act2-10": "无畏舰地图狭长且检查点明确，持续向船头推进即可；最终贾曼拉战前优先补闪电抗性。",
+    "act3-0": "风沙沼泽中的 Orok 营地篮子可给较小工匠石，但属于可选拾取，赶路时不必绕远。",
+    "act3-1": "丛林遗迹先击杀银拳拿天赋，再寻找毒液墓穴传送点；两项目标都在主线路线附近，不应留到幕末回头。",
+    "act3-2": "先在感染荒地点亮奇美拉湿地入口，再传送去毒液墓穴取毒液，可减少一次长距离回跑。",
+    "act3-3": "先点亮混沌试炼传送点即可；第二次升华也可等角色更强后再完成。",
+    "act3-4": "机械迷城的灵魂核心是开门资源；优先留意石台和封闭门，黑颚就在其中一条支路。",
+    "act3-5": "在圣所放入两枚中型核心后，要返回区域起点启动大型核心事件。",
+    "act3-6": "泥沼中的 Flameskin 仪式只提供本区域临时增益；永久奖励来自伊格纳杜克掉落的腐宝头骨。",
+    "act3-7": "重铸台是账号级解锁；同账号后续角色可以直接略过熔岩宝库。",
+    "act3-8": "污秽之巅若顺路捡齐三种蘑菇，可投入坩埚换高品质药剂；科佩克神庙击败凯兹图利后要等待阿尔瓦对话。",
+    "act3-9": "献祭之心可能在乌特萨尔或阿戈拉特掉落；拿到后不要卖掉，带到阿戈拉特右上区域的祭坛。",
+    "act3-10": "多里亚尼死亡后掉落出现较慢，等待约半分钟再离开房间。",
+    "act4-0": "第四幕可以自由选择部分岛屿顺序；本路线优先安排主线和永久奖励，减少反复航行。",
+    "act4-1": "瓦卡帕努海岸先拾取石化海盗的地图碎片；歌唱洞穴若遇到召唤之蛤，可取珍珠回城换全抗项链。",
+    "act4-2": "海岸藏身处是首个角色的账号解锁内容；清理完怪物后必须再次与安吉交谈才算完成。",
+    "act4-3": "礼拜堂钥匙由监狱普通怪物随机掉落；不必清完整张地图，拿到钥匙即可找礼拜堂门。",
+    "act4-4": "单独监禁区为线性 Boss 区；击败囚徒后别立即传送，先与出现的兜帽人交谈。",
+    "act4-5": "血亲岛的米姆博克只给技能与辅助宝石；赶路可跳过，但盲兽的 2 点天赋必须完成。",
+    "act4-6": "三项考验各会给空白纹身，用亡者大厅的雕像选择奖励；纹身选择应按当前属性需求决定。",
+    "act4-7": "凯奇湾整座岛都不是通关必需；纯速度开荒可以完全不去。",
+    "act4-8": "掠夺者据点必须先凑齐四张撕裂地图，只有远征奖励，不计入主线。",
+    "act4-9": "阿拉斯塔斯先跟随传教士移动并利用投石破坏护盾；晨钟与暮钟属于额外通货奖励，赶时间可不找。",
+    "act4-10": "恩加卡努直接寻找部族之心入口；击败塔瓦基后还要与其交谈，任务才会进入间章阶段。",
+    "int1-0": "从任意城镇找兜帽人选择前往欧甘；抵达避难所后依次完成兜帽人、伦利和芬恩的对话再出发。",
+    "int1-1": "焦灼农田的黑森林入口最初被黑暗封锁；先向南完成塞尔巨石阵的六块符文巨石，再返回入口。",
+    "int1-2": "进入霍尔滕后，先把沃尔文堡与霍尔登庄园两个入口和传送点都找出来，再分别处理。",
+    "int1-3": "霍尔滕中部的 Ferryman 商人会低价出售高级符文；缺抗性时值得顺路检查。",
+    "int1-4": "霍尔登庄园需要上两段楼梯穿过迷宫抵达庭院；双 Boss 完成后直接传送回避难所交任务。",
+    "int2-0": "卡里集市的前置对话顺序是阿萨拉、扎卡、莉苏；缺少其中一次对话可能导致后续 NPC 不出现。",
+    "int2-1": "颅喉阶梯位于卡里渡口北侧。5% 最大生命是永久奖励，务必在离开区域前使用任务物品。",
+    "int2-2": "在卡里渡口击败蝎子与沙虫后，可先分别点亮卡塔尔水池和加莱之门，再回集市找莉苏领取天赋。",
+    "int2-3": "圣所的两枚巴雅只换稀有首饰，不影响通关；装备已经够用时可以跳过。",
+    "int2-4": "加莱之门击败沃纳斯后进入奇玛；奥巴拉之柱藏在地图边缘凹位，找到后可从七种永久增益中选择。",
+    "int2-5": "蓄水池随机掉落的圣水可投入圣井换通货，但无需为了刷圣水反复清图。",
+    "int3-0": "灰烬森林的远古纪念碑会给 14 级技能宝石，属于顺路可拿、无需特意回头的奖励。",
+    "int3-1": "克里亚尔村的两只游荡灵火会为入口和目标提供方向；击败莉萨拉后立即使用腐宝头骨，不要只捡取精魂宝石。",
+    "int3-2": "嚎风洞穴是冰川湖的支路；击败雪人拿到冰冷长牙后原路返回冰川湖继续主线。",
+    "int3-3": "免费传奇是稳定奖励，但未必适合当前 BD；领取后比较属性，不要因为传奇品质强行装备。",
+    "int3-4": "蚀刻峡谷击败风暴之血后继续进入库阿奇克宝库；小型灵魂核心只用于开额外宝库，纯主线无需全部收集。",
+    "int3-5": "抵达金字塔避难所后先完成 Hooded One 与多里亚尼的对话，再开第一张地图，避免任务状态卡住。"
+  },
+  "stageGuides": {
+    "act1": {
+      "focus": "目标：+4 天赋、+30 精魂、+10% 冰抗、+20 生命、拆解台。",
+      "tips": [
+        "优先更新主技能与武器；开荒速度主要受伤害是否跟得上影响。",
+        "不必清光白色怪物，优先击杀顺路的蓝色魔法怪群。",
+        "格雷尔伍德可沿发光树根找灵魂之树；沿河逆流寻找红谷；蘑菇会标示阴森缠林方向。",
+        "狩猎场完成一个仪式后，出现的飞虫会指向下一个仪式；完成仪式链后会引向弗雷索恩。",
+        "第一幕通货先用于解决伤害或抗性瓶颈，不要为很快淘汰的普通护甲大量制作。",
+        "每次回城集中处理宝石、装备和背包，减少反复停留。",
+        "离开第一幕前核对：乌娜鲁特琴 2 点天赋、悬铃巨鸦 2 点天赋、30 精魂、冰抗与生命奖励。"
+      ]
+    },
+    "act2": {
+      "focus": "目标：+4 天赋、+10% 闪电抗性、首次升华、可更换部族增益。",
+      "tips": [
+        "车队地图会产生多条分支，先点传送点再回车队换目标。",
+        "矿井优先沿连续铁轨；哈拉尼之门布局狭长，顺主路即可抵达末端。",
+        "芭芭拉火焰伤害较高，进叛徒通道前优先补火抗；首次试炼可以延后。",
+        "乳齿象荒地的绿色裂纹会指向无光通道；骨坑任务物需要击杀区域怪物直到掉落。",
+        "凯斯与骨坑的两件部族圣物要留到泰坦之谷使用，不要遗忘在背包或仓库。",
+        "试炼中荣誉比生命更重要，优先躲避、完成房间目标并用圣水购买恢复或增益。",
+        "攻击职业重点检查武器基础伤害，法术职业重点检查技能等级。"
+      ]
+    },
+    "act3": {
+      "focus": "目标：+4 天赋、+30 精魂、+10% 火抗、第二升华、重铸台。",
+      "tips": [
+        "区域较长，先点支路传送点再传送处理任务物，能减少回跑。",
+        "感染荒地的营地箱子可给稀有鞋，并会通过野兽踪迹引向后续入口。",
+        "机械迷城分为两部分：小型核心用于开门，中型核心用于发电机；用完记得返回起点推进大型核心事件。",
+        "马特兰水道的丛林墓穴与 Servi 奖励顺路，可选择一条稀有腰带。",
+        "污秽之巅新版布局接近阿戈拉特，通常沿主要外圈推进比来回切入支路稳定。",
+        "乌特萨尔与阿戈拉特的献祭之心是永久天赋物品，拿到后立即去祭坛使用。",
+        "进入机械迷城前补火抗；泥沼与污秽区域注意持续伤害。",
+        "第二升华不必强行立即完成，但升华入口和任务物品要先拿到。"
+      ]
+    },
+    "act4": {
+      "focus": "目标：+4 天赋、纹身永久选择、药剂增益、藏身处。",
+      "tips": [
+        "第四幕多数岛屿可自由选择，但每个赛季三件武器碎片和 Matiki 所在岛可能轮换，应以当前任务标记为准。",
+        "当前快速路线可先做 Whakapanu、伯劳岛与废弃监狱，再去 Arasthas、Ngakanu。",
+        "歌唱洞穴的 Beckoning Clam 会给珍珠，可回城换全抗项链；缺抗性时很值得顺路取得。",
+        "废弃监狱只需刷到礼拜堂钥匙，不必清完整图；药剂恢复增益以后仍可更换。",
+        "血亲岛沿外墙搜索可找到较小工匠石；火山洞窟最后击杀的魔像会影响奖励戒指类型。",
+        "亡者大厅三项纹身可在属性或对应抗性之间选择，开荒缺抗时优先抗性。",
+        "掠夺者据点需要四张地图碎片才开放，属于额外远征内容，不应阻塞主线。",
+        "进入间章前整理抗性；跨阶段时抗性惩罚会立即生效。"
+      ]
+    },
+    "int1": {
+      "focus": "欧甘间章：核心奖励为沃尔文堡的 2 点天赋。",
+      "tips": [
+        "0.5 的三个间章可自行选择顺序，不必严格按编号完成。",
+        "先解除巨石阵的黑暗，黑森林入口才会开放。",
+        "霍尔滕先找齐沃尔文堡与霍尔登庄园两个分支传送点，再分别处理。",
+        "霍尔滕的预兆祭坛可掉落预兆；不追求额外收益时无需为了祭坛全清。",
+        "码头附近的摆渡者灵魂会以约 2000 金币出售高级符文，缺抗性时顺路检查。",
+        "沃尔文堡的典狱长账簿要立即使用，确保 2 点天赋已经计入。",
+        "间章怪物密度在 0.5 已降低，保持向目标推进通常比停下刷经验更有效。"
+      ]
+    },
+    "int2": {
+      "focus": "卡里间章：+2 天赋、+5% 最大生命、七选一可更换增益。",
+      "tips": [
+        "这一间章通常更难；若计划全清，可在角色等级较低时优先完成。",
+        "卡里渡口沿道路寻找蝎子与沙虫 Boss；Wayfinder 封印会指向卡塔尔水池方向。",
+        "颅喉阶梯位于熔火神殿区域，靠近北侧地标；拿到熔火者之赐后要实际使用才获得 5% 生命。",
+        "奥巴拉增益可随时回来更换；通用开荒可考虑全抗或移动速度。",
+        "如果 Jado 没有出现并打开蓄水池入口，先完成瑟尔卡里圣所及艾尔扎拉任务。",
+        "两个巴雅支线只给稀有首饰，装备已够用时无需专门寻找。",
+        "蓄水池的圣水井只换通货；巨大花瓶会召唤可选稀有怪，纯赶路可跳过。"
+      ]
+    },
+    "int3": {
+      "focus": "克里亚尔山：+4 天赋、+40 精魂、免费传奇，并解锁异界。",
+      "tips": [
+        "通用推荐优先完成本间章，尽早取得 40 精魂提升。",
+        "灰烬森林没有传送点；路过远古纪念碑可拿随间章顺序缩放等级的技能宝石。",
+        "克里亚尔村有两只游荡灵火会引导方向；找到莉萨拉后立即使用腐宝头骨取得 40 精魂。",
+        "冰川湖固定出现远征内容；只冲主线时不要被额外事件拖离嚎风洞穴入口。",
+        "克里亚尔山地标相对稳定；长老通常位于地图约 10–11 点方向。",
+        "长老提供的免费传奇应按属性选择，不要只看稀有度；选择前比较当前最弱装备槽。",
+        "技能与精魂宝石等级会随间章完成顺序变化，不要把攻略中的固定等级当作绝对值。",
+        "间章不要过度制作装备，把高价值通货留给 T1 地图装备档位。"
+      ]
+    }
+  }
+}

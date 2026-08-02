@@ -7,11 +7,12 @@
     "sync:dictionary": "node scripts/sync-poe2-offline-dictionary.js",
     "sync:affixes": "node scripts/sync-poe2-affixes.js",
     "sync:icons": "node scripts/sync-poe2-icons.js",
+    "monitor:guide": "node scripts/monitor-poe2-guide.js",
     "sync": "npm run sync:dictionary && npm run sync:affixes && npm run sync:icons",
     "validate": "node scripts/validate-update-data.js",
-    "build": "node scripts/build-update.js",
+    "build": "node scripts/build-update.js && node scripts/build-guide-update.js",
     "update": "npm run sync && npm run validate && npm run build",
-    "check": "node --check scripts/sync-poe2-offline-dictionary.js && node --check scripts/sync-poe2-affixes.js && node --check scripts/sync-poe2-icons.js && node --check scripts/validate-update-data.js && node --check scripts/build-update.js"
+    "check": "node --check scripts/sync-poe2-offline-dictionary.js && node --check scripts/sync-poe2-affixes.js && node --check scripts/sync-poe2-icons.js && node --check scripts/validate-update-data.js && node --check scripts/build-update.js && node --check scripts/build-guide-update.js && node --check scripts/monitor-poe2-guide.js"
   },
   "dependencies": {
     "opencc-js": "^1.4.1"

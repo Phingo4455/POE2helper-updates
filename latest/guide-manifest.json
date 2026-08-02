@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "realm": "poe2",
+  "channel": "stable",
+  "guideVersion": "1.2026.08.02.1",
+  "gameVersion": "0.5.1",
+  "updatedAt": "2026-08-02T00:00:00.000Z",
+  "sourceRevision": "poe2wiki-2026-06-03",
+  "releaseNotes": [
+    "首次启用开荒路线在线热更新。"
+  ],
+  "sources": [
+    "https://www.poe2wiki.net/wiki/Guide:Acts_quick_guide",
+    "https://poe2leveling.com/"
+  ],
+  "file": {
+    "name": "poe2-campaign-guide.json",
+    "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe2-campaign-guide.json",
+    "sha256": "157a9feda48e2244e2ca4604d9c8b2882955ea0cfb0c38b862f361f97853287f",
+    "size": 31354
+  }
+}
