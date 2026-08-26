@@ -1,0 +1,48 @@
+[
+  {
+    "en": "Mirror of Kalandra",
+    "zh": "卡兰德的魔镜",
+    "tw": "卡蘭德的魔鏡",
+    "typeLabel": "通货",
+    "aliases": [
+      "镜子",
+      "魔镜"
+    ]
+  },
+  {
+    "en": "Headhunter",
+    "zh": "猎首",
+    "tw": "獵首",
+    "typeLabel": "传奇物品",
+    "aliases": [
+      "HH"
+    ]
+  },
+  {
+    "en": "Mageblood",
+    "zh": "魔血",
+    "tw": "魔血",
+    "typeLabel": "传奇物品",
+    "aliases": [
+      "法血"
+    ]
+  },
+  {
+    "en": "Divine Orb",
+    "zh": "神圣石",
+    "tw": "神聖石",
+    "typeLabel": "通货",
+    "aliases": [
+      "D"
+    ]
+  },
+  {
+    "en": "Chaos Orb",
+    "zh": "混沌石",
+    "tw": "混沌石",
+    "typeLabel": "通货",
+    "aliases": [
+      "C"
+    ]
+  }
+]
