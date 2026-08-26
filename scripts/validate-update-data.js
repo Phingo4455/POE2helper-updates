@@ -40,6 +40,12 @@ function main() {
   for (const name of ['Mageblood', "Alpha's Howl", 'Constricting Command', 'Flicker Strike']) {
     assert(hasEnglish(translations, name), `POE2 核心哨兵词条缺失：${name}`);
   }
+  for (const name of ['Uncut Skill Gem', 'Uncut Support Gem', 'Uncut Spirit Gem']) {
+    const term = translations.find(item => item.en === name);
+    assert(term?.zh && term?.tw, `POE2 未切割宝石翻译缺失：${name}`);
+  }
+  const uncutGems = translations.filter(item => /^Uncut (?:Skill|Support|Spirit) Gem(?: \(Level \d+\))?$/.test(item.en));
+  assert(uncutGems.length >= 40 && uncutGems.every(item => item.zh && item.tw), `POE2 未切割宝石词库不完整：${uncutGems.length}`);
   assert(hasEnglish(supplement, 'Mageblood') && hasEnglish(supplement, 'Constricting Command'), '玩家俗称哨兵词条缺失');
 
   const allNames = translations.map(item => `${item.en}\n${item.zh}\n${item.tw}`).join('\n');
