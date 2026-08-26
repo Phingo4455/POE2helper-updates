@@ -1,0 +1,992 @@
+{
+  "schemaVersion": 1,
+  "realm": "poe1",
+  "guideVersion": "1.2026.08.06.2",
+  "gameVersion": "3.29",
+  "updatedAt": "2026-08-05T17:15:03.876Z",
+  "sourceRevision": "POE1 ten-act campaign localized",
+  "sources": [
+    "https://www.poewiki.net/wiki/Act_1",
+    "https://www.poewiki.net/wiki/Act_10"
+  ],
+  "releaseNotes": [
+    "POE1 路线的地图、NPC、Boss 和任务物品统一显示为中文（英文）。"
+  ],
+  "routes": [
+    {
+      "id": "act1",
+      "label": "第一幕",
+      "tasks": [
+        [
+          "required",
+          "暮光海滩 → 狮眼守望",
+          "击败 Hillock，进入 Lioneye’s Watch；领取主技能并检查武器。"
+        ],
+        [
+          "required",
+          "海潮孤岛 → 炙热盐沼",
+          "从 Tidal Island 取得 Medicine Chest，回城领取水银药剂；穿过 Mud Flats 打开水下通道。"
+        ],
+        [
+          "required",
+          "水下通道 → 禁灵之狱",
+          "在 Submerged Passage 开传送点；前往 Flooded Depths 击败 Dweller of the Deep 获得天赋点，再进入监狱。"
+        ],
+        [
+          "trial",
+          "禁灵之狱：升华试炼",
+          "完成 Lower Prison 的首个迷宫试炼，击败 Brutus。"
+        ],
+        [
+          "required",
+          "船墓 → 愤怒洞窟",
+          "在 Ship Graveyard 找 Allflame，击败 Fairgraves 获得天赋点；进入 Cavern of Wrath。"
+        ],
+        [
+          "required",
+          "怨忿洞窟：幕终 Boss",
+          "击败 Merveil，进入第二幕森林营地。"
+        ]
+      ]
+    },
+    {
+      "id": "act2",
+      "label": "第二幕",
+      "tasks": [
+        [
+          "required",
+          "南部森林 → 森林营地",
+          "沿道路进入营地，优先处理盗贼任务路线。"
+        ],
+        [
+          "reward",
+          "兽穴 → 湿地",
+          "击败 Great White Beast；在 Wetlands 击败 Oak 或按流派帮助盗贼，开启 Vaal Ruins。"
+        ],
+        [
+          "required",
+          "罪孽之殿",
+          "在 Chamber of Sins 第二层完成试炼并取得 Baleful Gem。"
+        ],
+        [
+          "reward",
+          "西部密林",
+          "处理 Alira；击败 Weaver 取得 Spike，打开 Western Forest 封路并完成 Captain Arteri 天赋点。"
+        ],
+        [
+          "required",
+          "北部密林 → 古金字塔",
+          "处理 Kraityn，取得三枚护符；穿过 Vaal Ruins 和 Northern Forest。"
+        ],
+        [
+          "required",
+          "古金字塔：幕终 Boss",
+          "击败 Vaal Oversoul，进入第三幕。"
+        ]
+      ]
+    },
+    {
+      "id": "act3",
+      "label": "第三幕",
+      "tasks": [
+        [
+          "required",
+          "贫民窟 → 火葬场",
+          "救出 Clarissa；在 Crematorium 完成试炼并击败 Piety，取得 Tolman’s Bracelet。"
+        ],
+        [
+          "required",
+          "下水道 → 市集",
+          "取得 Sewer Keys，收集三座 Platinum Bust；从 Marketplace 前往 Battlefront。"
+        ],
+        [
+          "required",
+          "战场 → 码头",
+          "取得 Ribbon Spool 与 Thaumetic Sulphite，进入 Solaris Temple。"
+        ],
+        [
+          "required",
+          "月影神殿",
+          "穿过 Ebony Barracks，击败 General Gravicius；在 Lunaris Temple 击败 Piety。"
+        ],
+        [
+          "trial",
+          "帝国花园",
+          "完成 Imperial Gardens 试炼，进入 Library 可选解锁宝石商店。"
+        ],
+        [
+          "required",
+          "神权之塔：幕终 Boss",
+          "使用 Tower Key 进入 Sceptre of God，击败 Dominus。"
+        ]
+      ]
+    },
+    {
+      "id": "act4",
+      "label": "第四幕",
+      "tasks": [
+        [
+          "required",
+          "干涸湖岸 → 水晶矿脉",
+          "击败 Voll 取得 Deshret’s Banner，穿过 Mines 并释放 Deshret 灵魂获得天赋点。"
+        ],
+        [
+          "required",
+          "冈姆幻境",
+          "穿过 Kaom’s Dream 与 Stronghold，击败 Kaom 取得 Eye of Fury。"
+        ],
+        [
+          "required",
+          "大竞技场",
+          "穿过 Daresso’s Dream，击败 Daresso 取得 Eye of Desire。"
+        ],
+        [
+          "required",
+          "巨兽腹部",
+          "返回 Crystal Veins，进入 Belly of the Beast，击败 Piety。"
+        ],
+        [
+          "required",
+          "育灵之室：幕终",
+          "依次击败 Maligaro、Shavronne、Doedre，再击败 Malachai。"
+        ]
+      ]
+    },
+    {
+      "id": "act5",
+      "label": "第五幕",
+      "tasks": [
+        [
+          "required",
+          "奴役监牢 → 监工之塔",
+          "击败 Overseer Krow，进入 Overseer’s Tower。"
+        ],
+        [
+          "reward",
+          "控制区",
+          "取得 Miasmeter；击败 Justicar Casticus 并救出 Vilenta。"
+        ],
+        [
+          "required",
+          "奥瑞亚广场 → 圣堂屋顶",
+          "穿过 Templar Courts，击败 Avarius。"
+        ],
+        [
+          "reward",
+          "藏骨堂",
+          "在 Ossuary 取得 Sign of Purity；完成 Kitava’s Torments 获得天赋点。"
+        ],
+        [
+          "required",
+          "圣堂屋顶：幕终 Boss",
+          "击败 Kitava；承受第一次抗性惩罚后进入第六幕。"
+        ]
+      ]
+    },
+    {
+      "id": "act6",
+      "label": "第六幕",
+      "tasks": [
+        [
+          "required",
+          "暮光海滩清理",
+          "完成 Lilly Roth 的海滩清理，解锁宝石商店。"
+        ],
+        [
+          "required",
+          "海岸 → 泥滩",
+          "击败 Dishonoured Queen，取得 Eye of Conquest；击败 Tukohama 获得天赋点。"
+        ],
+        [
+          "trial",
+          "禁灵之狱",
+          "完成 Prison 试炼，击败 Shavronne 与 Brutus。"
+        ],
+        [
+          "reward",
+          "河道 → 湿地",
+          "击败 Abberath 与 Ryslatha，分别获得天赋点。"
+        ],
+        [
+          "required",
+          "南部森林 → 灯塔",
+          "点燃 Beacon，护送燃料车并乘船前往 Brine King’s Reef。"
+        ],
+        [
+          "required",
+          "海礁：幕终 Boss",
+          "击败 Brine King，进入第七幕。"
+        ]
+      ]
+    },
+    {
+      "id": "act7",
+      "label": "第七幕",
+      "tasks": [
+        [
+          "required",
+          "断桥 → 十字路口",
+          "取得 Silver Locket；从 Crossroads 进入 Fellshrine Ruins。"
+        ],
+        [
+          "required",
+          "罪孽之殿",
+          "取得 Maligaro’s Map；完成第二层试炼并通过地图击败 Maligaro。"
+        ],
+        [
+          "reward",
+          "北部森林",
+          "击败 Gruthkul 获得天赋点；在 Dread Thicket 收集萤火虫。"
+        ],
+        [
+          "required",
+          "堤道 → 瓦尔古城",
+          "取得 Kishara’s Star；穿过 Causeway 进入 Vaal City。"
+        ],
+        [
+          "required",
+          "腐朽神殿：幕终 Boss",
+          "击败 Arakaali，进入第八幕。"
+        ]
+      ]
+    },
+    {
+      "id": "act8",
+      "label": "第八幕",
+      "tasks": [
+        [
+          "required",
+          "有毒管道 → Doedre 污水池",
+          "击败 Doedre，开启东西两侧路线。"
+        ],
+        [
+          "reward",
+          "码头 → 粮仓",
+          "取得 Ankh of Eternity；击败 Tolman 与 Gemling Legion 获得天赋点。"
+        ],
+        [
+          "trial",
+          "浴场",
+          "完成 Bath House 试炼；击败 Yugul 获得天赋点。"
+        ],
+        [
+          "required",
+          "月影广场 → 日耀神殿",
+          "分别取得 Moon Orb 与 Sun Orb。"
+        ],
+        [
+          "required",
+          "港口大桥：幕终 Boss",
+          "击败 Solaris 与 Lunaris，进入第九幕。"
+        ]
+      ]
+    },
+    {
+      "id": "act9",
+      "label": "第九幕",
+      "tasks": [
+        [
+          "required",
+          "鲜血水道 → 瓦斯提里沙漠",
+          "进入 Highgate，寻找 Storm Blade 并交给 Petarus 与 Vanja。"
+        ],
+        [
+          "reward",
+          "绿洲 → 沸水湖",
+          "击败 Shakari 与 Basilisk，取得 Acid；完成支线天赋点。"
+        ],
+        [
+          "required",
+          "隧道 → 采石场",
+          "完成 Tunnel 试炼；在 Quarry 开启 Shrine of the Winds 与 Refinery。"
+        ],
+        [
+          "reward",
+          "风之圣殿",
+          "击败 Garukhan，解救 Sekhema Oyun 获得天赋点。"
+        ],
+        [
+          "required",
+          "炼油厂 → 巨兽腹部",
+          "取得 Trarthan Powder，制作混合物进入 Belly of the Beast。"
+        ],
+        [
+          "required",
+          "腐化核心：幕终 Boss",
+          "击败三名守卫和 Depraved Trinity，进入第十幕。"
+        ]
+      ]
+    },
+    {
+      "id": "act10",
+      "label": "第十幕",
+      "tasks": [
+        [
+          "required",
+          "大教堂屋顶",
+          "救出 Bannon，进入 Ravaged Square。"
+        ],
+        [
+          "reward",
+          "控制区 → 藏骨堂",
+          "击败 Vilenta 获得天赋点；在 Ossuary 取得 Elixir of Allure。"
+        ],
+        [
+          "trial",
+          "藏骨堂试炼",
+          "完成最后一个剧情迷宫试炼，准备终极迷宫。"
+        ],
+        [
+          "required",
+          "焚化场 → 饮水口",
+          "取得 Innocence Staff；击败 Avarius Reassembled。"
+        ],
+        [
+          "required",
+          "运河 → 饲槽",
+          "确认抗性和装备后进入最终区域。"
+        ],
+        [
+          "required",
+          "饲槽：最终 Boss",
+          "击败 Kitava，承受最终抗性惩罚；前往 Oriath 并进入异界。"
+        ]
+      ]
+    }
+  ],
+  "areaRouteAliases": {
+    "act1-0": [
+      "暮光海滩",
+      "狮眼守望",
+      "The Twilight Strand",
+      "Lioneye’s Watch"
+    ],
+    "act1-1": [
+      "海潮孤岛",
+      "炙热盐沼",
+      "The Tidal Island",
+      "The Mud Flats"
+    ],
+    "act1-2": [
+      "水下通道",
+      "禁灵之狱",
+      "The Submerged Passage",
+      "The Flooded Depths"
+    ],
+    "act1-3": [
+      "禁灵之狱",
+      "The Lower Prison",
+      "The Upper Prison"
+    ],
+    "act1-4": [
+      "船墓",
+      "愤怒洞窟",
+      "The Ship Graveyard",
+      "The Ship Graveyard Cave",
+      "The Cavern of Wrath"
+    ],
+    "act1-5": [
+      "怨忿洞窟",
+      "The Cavern of Anger"
+    ],
+    "act2-0": [
+      "南部森林",
+      "森林营地",
+      "The Southern Forest",
+      "The Forest Encampment"
+    ],
+    "act2-1": [
+      "兽穴",
+      "湿地",
+      "The Old Fields",
+      "The Den",
+      "The Wetlands"
+    ],
+    "act2-2": [
+      "罪孽之殿",
+      "The Chamber of Sins Level 1",
+      "The Chamber of Sins Level 2"
+    ],
+    "act2-3": [
+      "西部密林",
+      "The Western Forest",
+      "The Weaver’s Chambers"
+    ],
+    "act2-4": [
+      "北部密林",
+      "古金字塔",
+      "The Crossroads",
+      "The Broken Bridge",
+      "The Northern Forest",
+      "The Vaal Ruins"
+    ],
+    "act2-5": [
+      "古金字塔",
+      "The Ancient Pyramid"
+    ],
+    "act3-0": [
+      "贫民窟",
+      "火葬场",
+      "The City of Sarn",
+      "The Slums",
+      "The Crematorium"
+    ],
+    "act3-1": [
+      "下水道",
+      "市集",
+      "The Sewers",
+      "The Marketplace"
+    ],
+    "act3-2": [
+      "战场",
+      "码头",
+      "The Battlefront",
+      "The Docks",
+      "The Solaris Temple"
+    ],
+    "act3-3": [
+      "月影神殿",
+      "The Ebony Barracks",
+      "The Lunaris Temple"
+    ],
+    "act3-4": [
+      "帝国花园",
+      "The Imperial Gardens",
+      "The Library"
+    ],
+    "act3-5": [
+      "神权之塔",
+      "The Sceptre of God",
+      "The Upper Sceptre of God"
+    ],
+    "act4-0": [
+      "干涸湖岸",
+      "水晶矿脉",
+      "The Aqueduct",
+      "Highgate",
+      "The Dried Lake",
+      "The Mines",
+      "The Crystal Veins"
+    ],
+    "act4-1": [
+      "冈姆幻境",
+      "Kaom’s Dream",
+      "Kaom’s Stronghold"
+    ],
+    "act4-2": [
+      "大竞技场",
+      "Daresso’s Dream",
+      "The Grand Arena"
+    ],
+    "act4-3": [
+      "巨兽腹部",
+      "The Belly of the Beast"
+    ],
+    "act4-4": [
+      "育灵之室",
+      "The Harvest"
+    ],
+    "act5-0": [
+      "奴役监牢",
+      "监工之塔",
+      "The Slave Pens",
+      "Overseer’s Tower"
+    ],
+    "act5-1": [
+      "控制区",
+      "The Control Blocks",
+      "Oriath Square"
+    ],
+    "act5-2": [
+      "奥瑞亚广场",
+      "圣堂屋顶",
+      "The Templar Courts",
+      "The Chamber of Innocence"
+    ],
+    "act5-3": [
+      "藏骨堂",
+      "The Ruined Square",
+      "The Ossuary"
+    ],
+    "act5-4": [
+      "圣堂屋顶",
+      "The Cathedral Rooftop"
+    ],
+    "act6-0": [
+      "暮光海滩清理",
+      "The Twilight Strand"
+    ],
+    "act6-1": [
+      "海岸",
+      "泥滩",
+      "The Coast",
+      "The Mud Flats",
+      "Karui Fortress"
+    ],
+    "act6-2": [
+      "禁灵之狱",
+      "The Ridge",
+      "The Lower Prison",
+      "Shavronne’s Tower"
+    ],
+    "act6-3": [
+      "河道",
+      "湿地",
+      "The Riverways",
+      "The Wetlands",
+      "The Southern Forest"
+    ],
+    "act6-4": [
+      "南部森林",
+      "灯塔",
+      "The Cavern of Anger",
+      "The Beacon"
+    ],
+    "act6-5": [
+      "海礁",
+      "The Brine King’s Reef"
+    ],
+    "act7-0": [
+      "断桥",
+      "十字路口",
+      "The Broken Bridge",
+      "The Crossroads",
+      "The Fellshrine Ruins"
+    ],
+    "act7-1": [
+      "罪孽之殿",
+      "The Chamber of Sins Level 1",
+      "The Chamber of Sins Level 2",
+      "Maligaro’s Sanctum"
+    ],
+    "act7-2": [
+      "北部森林",
+      "The Ashen Fields",
+      "The Northern Forest",
+      "The Dread Thicket"
+    ],
+    "act7-3": [
+      "堤道",
+      "瓦尔古城",
+      "The Causeway",
+      "The Vaal City"
+    ],
+    "act7-4": [
+      "腐朽神殿",
+      "The Temple of Decay"
+    ],
+    "act8-0": [
+      "有毒管道",
+      "Doedre 污水池",
+      "The Toxic Conduits",
+      "Doedre’s Cesspool"
+    ],
+    "act8-1": [
+      "码头",
+      "粮仓",
+      "The Quay",
+      "The Grain Gate"
+    ],
+    "act8-2": [
+      "浴场",
+      "The Bath House",
+      "The High Gardens"
+    ],
+    "act8-3": [
+      "月影广场",
+      "日耀神殿",
+      "The Lunaris Concourse",
+      "The Solaris Concourse",
+      "The Solaris Temple",
+      "The Lunaris Temple"
+    ],
+    "act8-4": [
+      "港口大桥",
+      "The Harbour Bridge"
+    ],
+    "act9-0": [
+      "鲜血水道",
+      "瓦斯提里沙漠",
+      "The Blood Aqueduct",
+      "Highgate",
+      "The Vastiri Desert"
+    ],
+    "act9-1": [
+      "绿洲",
+      "沸水湖",
+      "The Oasis",
+      "The Boiling Lake"
+    ],
+    "act9-2": [
+      "隧道",
+      "采石场",
+      "The Tunnel",
+      "The Quarry"
+    ],
+    "act9-3": [
+      "风之圣殿",
+      "The Shrine of the Winds"
+    ],
+    "act9-4": [
+      "炼油厂",
+      "巨兽腹部",
+      "The Refinery",
+      "The Belly of the Beast"
+    ],
+    "act9-5": [
+      "腐化核心",
+      "The Rotting Core"
+    ],
+    "act10-0": [
+      "大教堂屋顶",
+      "The Cathedral Rooftop",
+      "The Ravaged Square"
+    ],
+    "act10-1": [
+      "控制区",
+      "藏骨堂",
+      "The Control Blocks",
+      "The Ossuary"
+    ],
+    "act10-2": [
+      "藏骨堂试炼",
+      "The Ossuary"
+    ],
+    "act10-3": [
+      "焚化场",
+      "饮水口",
+      "The Torched Courts",
+      "The Desecrated Chambers",
+      "The Canals"
+    ],
+    "act10-4": [
+      "运河",
+      "饲槽",
+      "The Feeding Trough"
+    ],
+    "act10-5": [
+      "饲槽",
+      "The Feeding Trough",
+      "Oriath"
+    ]
+  },
+  "terms": {
+    "Hillock": "希拉克（Hillock）",
+    "Merveil": "莫薇儿（Merveil）",
+    "Vaal Oversoul": "瓦尔超灵（Vaal Oversoul）",
+    "Dominus": "多米纳斯（Dominus）",
+    "Malachai": "马拉凯（Malachai）",
+    "Kitava": "奇塔弗（Kitava）",
+    "Brutus": "布鲁特斯（Brutus）",
+    "Piety": "派蒂（Piety）",
+    "Arakaali": "阿拉卡力（Arakaali）",
+    "Lioneye’s Watch": "狮眼守望（Lioneye’s Watch）",
+    "Tidal Island": "海潮孤岛（Tidal Island）",
+    "Mud Flats": "炙热盐沼（Mud Flats）",
+    "Submerged Passage": "水下通道（Submerged Passage）",
+    "Flooded Depths": "水下深渊（Flooded Depths）",
+    "Lower Prison": "禁灵之狱下层（Lower Prison）",
+    "Ship Graveyard": "船墓（Ship Graveyard）",
+    "Cavern of Wrath": "愤怒洞窟（Cavern of Wrath）",
+    "Cavern of Anger": "怨忿洞窟（Cavern of Anger）",
+    "Southern Forest": "南部森林（Southern Forest）",
+    "Forest Encampment": "森林营地（Forest Encampment）",
+    "Old Fields": "前哨原野（Old Fields）",
+    "The Den": "兽穴（The Den）",
+    "Wetlands": "湿地（Wetlands）",
+    "Chamber of Sins": "罪孽之殿（Chamber of Sins）",
+    "Western Forest": "西部密林（Western Forest）",
+    "Weaver’s Chambers": "织网者巢穴（Weaver’s Chambers）",
+    "Crossroads": "十字路口（Crossroads）",
+    "Broken Bridge": "断桥（Broken Bridge）",
+    "Northern Forest": "北部密林（Northern Forest）",
+    "Vaal Ruins": "瓦尔废墟（Vaal Ruins）",
+    "Ancient Pyramid": "古金字塔（Ancient Pyramid）",
+    "City of Sarn": "萨恩城废墟（City of Sarn）",
+    "Slums": "贫民窟（Slums）",
+    "Crematorium": "火葬场（Crematorium）",
+    "Sewers": "下水道（Sewers）",
+    "Marketplace": "市集（Marketplace）",
+    "Battlefront": "战场（Battlefront）",
+    "Docks": "码头（Docks）",
+    "Solaris Temple": "日耀神殿（Solaris Temple）",
+    "Ebony Barracks": "乌旗守卫兵营（Ebony Barracks）",
+    "Lunaris Temple": "月影神殿（Lunaris Temple）",
+    "Imperial Gardens": "帝国花园（Imperial Gardens）",
+    "Library": "图书馆（Library）",
+    "Sceptre of God": "神权之塔（Sceptre of God）",
+    "Aqueduct": "水道（Aqueduct）",
+    "Highgate": "统治者之殿（Highgate）",
+    "Dried Lake": "干涸湖岸（Dried Lake）",
+    "Mines": "漆黑矿坑（Mines）",
+    "Crystal Veins": "水晶矿脉（Crystal Veins）",
+    "Kaom’s Dream": "冈姆的幻境（Kaom’s Dream）",
+    "Kaom’s Stronghold": "冈姆的堡垒（Kaom’s Stronghold）",
+    "Daresso’s Dream": "德瑞索的幻境（Daresso’s Dream）",
+    "Grand Arena": "大竞技场（Grand Arena）",
+    "Belly of the Beast": "巨兽腹部（Belly of the Beast）",
+    "Harvest": "育灵之室（Harvest）",
+    "Slave Pens": "奴役监牢（Slave Pens）",
+    "Overseer’s Tower": "监工之塔（Overseer’s Tower）",
+    "Control Blocks": "控制区（Control Blocks）",
+    "Oriath Square": "奥瑞亚广场（Oriath Square）",
+    "Templar Courts": "圣堂屋顶（Templar Courts）",
+    "Chamber of Innocence": "纯净圣殿（Chamber of Innocence）",
+    "Ruined Square": "破败广场（Ruined Square）",
+    "Ossuary": "藏骨堂（Ossuary）",
+    "Cathedral Rooftop": "大教堂屋顶（Cathedral Rooftop）",
+    "Coast": "海岸（Coast）",
+    "Karui Fortress": "卡鲁堡垒（Karui Fortress）",
+    "Ridge": "山脊（Ridge）",
+    "Prison": "禁灵之狱（Prison）",
+    "Shavronne’s Tower": "薛朗之塔（Shavronne’s Tower）",
+    "Riverways": "河道（Riverways）",
+    "Beacon": "灯塔（Beacon）",
+    "Brine King’s Reef": "海礁（Brine King’s Reef）",
+    "Fellshrine Ruins": "静谧陵墓（Fellshrine Ruins）",
+    "Maligaro’s Sanctum": "马雷葛萝的密室（Maligaro’s Sanctum）",
+    "Ashen Fields": "旱木林地（Ashen Fields）",
+    "Dread Thicket": "惊魂树洞（Dread Thicket）",
+    "Causeway": "堤道（Causeway）",
+    "Vaal City": "瓦尔古城（Vaal City）",
+    "Temple of Decay": "腐朽神殿（Temple of Decay）",
+    "Toxic Conduits": "有毒管道（Toxic Conduits）",
+    "Doedre’s Cesspool": "德瑞的污水池（Doedre’s Cesspool）",
+    "Quay": "码头（Quay）",
+    "Grain Gate": "粮仓（Grain Gate）",
+    "Bath House": "浴场（Bath House）",
+    "High Gardens": "贵族花园（High Gardens）",
+    "Lunaris Concourse": "月影广场（Lunaris Concourse）",
+    "Solaris Concourse": "日耀广场（Solaris Concourse）",
+    "Harbour Bridge": "港口大桥（Harbour Bridge）",
+    "Blood Aqueduct": "鲜血水道（Blood Aqueduct）",
+    "Vastiri Desert": "瓦斯提里沙漠（Vastiri Desert）",
+    "Oasis": "绿洲（Oasis）",
+    "Boiling Lake": "沸水湖（Boiling Lake）",
+    "Tunnel": "隧道（Tunnel）",
+    "Quarry": "采石场（Quarry）",
+    "Shrine of the Winds": "风之圣殿（Shrine of the Winds）",
+    "Refinery": "炼油厂（Refinery）",
+    "Rotting Core": "腐化核心（Rotting Core）",
+    "Ravaged Square": "破败广场（Ravaged Square）",
+    "Torched Courts": "焚化场（Torched Courts）",
+    "Desecrated Chambers": "亵渎之间（Desecrated Chambers）",
+    "Canals": "饮水口（Canals）",
+    "Feeding Trough": "饲槽（Feeding Trough）",
+    "Oriath": "奥瑞亚（Oriath）",
+    "Dweller of the Deep": "深渊巨蟹（Dweller of the Deep）",
+    "Great White Beast": "白色巨兽（Great White Beast）",
+    "Alira": "阿莉亚（Alira）",
+    "Oak": "欧克（Oak）",
+    "Kraityn": "克雷顿（Kraityn）",
+    "Fairgraves": "费尔格雷夫斯（Fairgraves）",
+    "Clarissa": "克拉莉莎（Clarissa）",
+    "General Gravicius": "格拉维奇将军（General Gravicius）",
+    "Voll": "福尔（Voll）",
+    "Kaom": "冈姆（Kaom）",
+    "Daresso": "德瑞索（Daresso）",
+    "Doedre": "德瑞（Doedre）",
+    "Shavronne": "薛朗（Shavronne）",
+    "Maligaro": "马雷葛萝（Maligaro）",
+    "Overseer Krow": "监工克罗（Overseer Krow）",
+    "Justicar Casticus": "审判长卡斯提克斯（Justicar Casticus）",
+    "Avarius": "亚法利斯（Avarius）",
+    "Avarius Reassembled": "重组的亚法利斯（Avarius Reassembled）",
+    "Dishonoured Queen": "耻辱女王（Dishonoured Queen）",
+    "Tukohama": "图克哈玛（Tukohama）",
+    "Abberath": "艾贝拉斯（Abberath）",
+    "Ryslatha": "瑞斯拉萨（Ryslatha）",
+    "Brine King": "海洋王（Brine King）",
+    "Gruthkul": "葛鲁斯寇（Gruthkul）",
+    "Tolman": "托尔曼（Tolman）",
+    "Gemling Legion": "宝石军团（Gemling Legion）",
+    "Yugul": "尤格尔（Yugul）",
+    "Solaris": "日耀女神（Solaris）",
+    "Lunaris": "月影女神（Lunaris）",
+    "Basilisk": "蜥蜴（Basilisk）",
+    "Shakari": "夏卡莉（Shakari）",
+    "Garukhan": "卡洛翰（Garukhan）",
+    "Depraved Trinity": "堕道三巨头（Depraved Trinity）",
+    "Bannon": "班恩（Bannon）",
+    "Vilenta": "薇伦塔（Vilenta）",
+    "Lilly Roth": "莉莉·罗斯（Lilly Roth）",
+    "Petarus": "佩塔卢斯（Petarus）",
+    "Vanja": "芙安珈（Vanja）",
+    "Sekhema Oyun": "丝克玛欧云（Sekhema Oyun）",
+    "Medicine Chest": "医药箱（Medicine Chest）",
+    "Baleful Gem": "邪影宝石（Baleful Gem）",
+    "Platinum Bust": "半身像（Platinum Bust）",
+    "Ribbon Spool": "缎带线轴（Ribbon Spool）",
+    "Thaumetic Sulphite": "奇术硫酸（Thaumetic Sulphite）",
+    "Deshret’s Banner": "迪虚瑞特之旗（Deshret’s Banner）",
+    "Eye of Fury": "愤怒之眼（Eye of Fury）",
+    "Eye of Desire": "欲望之眼（Eye of Desire）",
+    "Miasmeter": "瘴气仪（Miasmeter）",
+    "Sign of Purity": "纯净之印（Sign of Purity）",
+    "Kitava’s Torments": "奇塔弗的折磨（Kitava’s Torments）",
+    "Eye of Conquest": "征服之眼（Eye of Conquest）",
+    "Silver Locket": "银制盒坠（Silver Locket）",
+    "Maligaro’s Map": "马雷葛萝的地图（Maligaro’s Map）",
+    "Kishara’s Star": "琪莎拉之星（Kishara’s Star）",
+    "Ankh of Eternity": "永恒不朽（Ankh of Eternity）",
+    "Moon Orb": "月影宝珠（Moon Orb）",
+    "Sun Orb": "日耀宝珠（Sun Orb）",
+    "Storm Blade": "风暴之剑（Storm Blade）",
+    "Acid": "酸液（Acid）",
+    "Trarthan Powder": "特拉坦粉末（Trarthan Powder）",
+    "Innocence Staff": "纯净之杖（Innocence Staff）",
+    "Elixir of Allure": "诱惑药剂（Elixir of Allure）",
+    "Sewer Keys": "下水道钥匙（Sewer Keys）",
+    "Tower Key": "塔楼钥匙（Tower Key）",
+    "Spike": "尖刺（Spike）",
+    "Allflame": "不灭之火（Allflame）"
+  },
+  "typeLabels": {
+    "required": "主线",
+    "reward": "永久",
+    "trial": "升华",
+    "choice": "选择",
+    "unlock": "解锁",
+    "optional": "可选"
+  },
+  "tips": {
+    "act1-0": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act1-1": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act1-2": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act1-3": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act1-4": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act1-5": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act2-0": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act2-1": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act2-2": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act2-3": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act2-4": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act2-5": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act3-0": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act3-1": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act3-2": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act3-3": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act3-4": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act3-5": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act4-0": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act4-1": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act4-2": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act4-3": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act4-4": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act5-0": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act5-1": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act5-2": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act5-3": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act5-4": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act6-0": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act6-1": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act6-2": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act6-3": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act6-4": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act6-5": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act7-0": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act7-1": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act7-2": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act7-3": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act7-4": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act8-0": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act8-1": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act8-2": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act8-3": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act8-4": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act9-0": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act9-1": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act9-2": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act9-3": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act9-4": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act9-5": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act10-0": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act10-1": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act10-2": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act10-3": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act10-4": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。",
+    "act10-5": "优先完成当前主线目标并点亮沿途传送点；离开区域前确认任务物品和永久奖励。"
+  },
+  "stageGuides": {
+    "act1": {
+      "focus": "第一幕：主线、永久天赋与迷宫试炼。",
+      "tips": [
+        "沿主路线移动，不必清空普通怪物。",
+        "回城时集中更新宝石、抗性与移动速度。",
+        "进入下一幕前核对支线天赋和试炼。"
+      ]
+    },
+    "act2": {
+      "focus": "第二幕：主线、永久天赋与迷宫试炼。",
+      "tips": [
+        "沿主路线移动，不必清空普通怪物。",
+        "回城时集中更新宝石、抗性与移动速度。",
+        "进入下一幕前核对支线天赋和试炼。"
+      ]
+    },
+    "act3": {
+      "focus": "第三幕：主线、永久天赋与迷宫试炼。",
+      "tips": [
+        "沿主路线移动，不必清空普通怪物。",
+        "回城时集中更新宝石、抗性与移动速度。",
+        "进入下一幕前核对支线天赋和试炼。"
+      ]
+    },
+    "act4": {
+      "focus": "第四幕：主线、永久天赋与迷宫试炼。",
+      "tips": [
+        "沿主路线移动，不必清空普通怪物。",
+        "回城时集中更新宝石、抗性与移动速度。",
+        "进入下一幕前核对支线天赋和试炼。"
+      ]
+    },
+    "act5": {
+      "focus": "第五幕：主线、永久天赋与迷宫试炼。",
+      "tips": [
+        "沿主路线移动，不必清空普通怪物。",
+        "回城时集中更新宝石、抗性与移动速度。",
+        "进入下一幕前核对支线天赋和试炼。"
+      ]
+    },
+    "act6": {
+      "focus": "第六幕：主线、永久天赋与迷宫试炼。",
+      "tips": [
+        "沿主路线移动，不必清空普通怪物。",
+        "回城时集中更新宝石、抗性与移动速度。",
+        "进入下一幕前核对支线天赋和试炼。"
+      ]
+    },
+    "act7": {
+      "focus": "第七幕：主线、永久天赋与迷宫试炼。",
+      "tips": [
+        "沿主路线移动，不必清空普通怪物。",
+        "回城时集中更新宝石、抗性与移动速度。",
+        "进入下一幕前核对支线天赋和试炼。"
+      ]
+    },
+    "act8": {
+      "focus": "第八幕：主线、永久天赋与迷宫试炼。",
+      "tips": [
+        "沿主路线移动，不必清空普通怪物。",
+        "回城时集中更新宝石、抗性与移动速度。",
+        "进入下一幕前核对支线天赋和试炼。"
+      ]
+    },
+    "act9": {
+      "focus": "第九幕：主线、永久天赋与迷宫试炼。",
+      "tips": [
+        "沿主路线移动，不必清空普通怪物。",
+        "回城时集中更新宝石、抗性与移动速度。",
+        "进入下一幕前核对支线天赋和试炼。"
+      ]
+    },
+    "act10": {
+      "focus": "第十幕：主线、永久天赋与迷宫试炼。",
+      "tips": [
+        "沿主路线移动，不必清空普通怪物。",
+        "回城时集中更新宝石、抗性与移动速度。",
+        "进入下一幕前核对支线天赋和试炼。"
+      ]
+    }
+  }
+}

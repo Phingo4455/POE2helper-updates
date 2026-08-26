@@ -56,6 +56,20 @@
     "aliases": ["法血", "法血腰带", "魔血腰带", "MB"]
   },
   {
+    "en": "Doryani's Prototype",
+    "zh": "多里亚尼的试作甲",
+    "tw": "多里亞尼之型",
+    "typeLabel": "传奇物品",
+    "aliases": ["负电甲", "負電甲", "多里亚尼之型"]
+  },
+  {
+    "en": "Widowhail",
+    "zh": "遗孀之雹",
+    "tw": "鰥寡之托",
+    "typeLabel": "传奇物品",
+    "aliases": ["寡妇弓", "寡婦弓"]
+  },
+  {
     "en": "Alpha's Howl",
     "zh": "极地之眼",
     "tw": "極地之嗥",

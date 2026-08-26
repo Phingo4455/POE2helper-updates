@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "realm": "poe1",
+  "channel": "stable",
+  "version": "1.2026.08.26.87e92a04",
+  "contentId": "87e92a04e5e96528ad991c5f33afc241a2764a0c34607221bf7b51bd81951a31",
+  "generatedAt": "2026-08-26T15:17:47.259Z",
+  "minAppVersion": "0.2.0",
+  "sources": [
+    "PathOfBuildingCommunity/PathOfBuilding",
+    "Chuanhsing/PoeCharm2",
+    "Path of Exile official trade API",
+    "lvlvllvlvllvlvl/RePoE",
+    "POEhelper POE1 campaign"
+  ],
+  "files": [
+    {
+      "id": "translations",
+      "name": "poe1-translations.json",
+      "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe1/poe1-translations.json",
+      "sha256": "e8ba1e5fc14134cbfca3229f2a39eb97d40efe19c2a0fec9473d579547ff391c",
+      "size": 1879725
+    },
+    {
+      "id": "supplement",
+      "name": "poe1-dictionary-supplement.json",
+      "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe1/poe1-dictionary-supplement.json",
+      "sha256": "358aabd23f36946cb75ea1af38176a1e12748f13c75c75d77cfaad919d4b22dd",
+      "size": 748
+    },
+    {
+      "id": "tradeStats",
+      "name": "poe1-trade-stats.json",
+      "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe1/poe1-trade-stats.json",
+      "sha256": "a127ae5055a0b3aaba6d219cf41d63a477d5c1df953feeba133267476710102e",
+      "size": 4330899
+    },
+    {
+      "id": "affixes",
+      "name": "poe1-affix-data.json",
+      "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe1/poe1-affix-data.json",
+      "sha256": "a01ece806898f340e059e93607140a80132c11bb56d33dacb4cc3a8e856b66ea",
+      "size": 1708792
+    },
+    {
+      "id": "icons",
+      "name": "poe1-icons.json",
+      "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe1/poe1-icons.json",
+      "sha256": "cb2245e74103f67b2aa003044852a69c8701d341918ed9657b2e7ff28f12b2cc",
+      "size": 552223
+    },
+    {
+      "id": "zones",
+      "name": "poe1-zones.json",
+      "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe1/poe1-zones.json",
+      "sha256": "59a06d6685564564d0e8f5fa5bacbbc7035a64abc81514fed7b1187c003158aa",
+      "size": 6356
+    },
+    {
+      "id": "uniqueMods",
+      "name": "poe1-unique-mods.json",
+      "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe1/poe1-unique-mods.json",
+      "sha256": "4cde8b4c6cceab6c836d19e9b0632f82ff1827dd4fb66d35a8bb3b7600c89acf",
+      "size": 1690618
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "realm": "poe1",
+  "channel": "stable",
+  "guideVersion": "1.2026.08.06.2",
+  "gameVersion": "3.29",
+  "updatedAt": "2026-08-05T17:15:03.876Z",
+  "sourceRevision": "POE1 ten-act campaign localized",
+  "releaseNotes": [
+    "POE1 路线的地图、NPC、Boss 和任务物品统一显示为中文（英文）。"
+  ],
+  "sources": [
+    "https://www.poewiki.net/wiki/Act_1",
+    "https://www.poewiki.net/wiki/Act_10"
+  ],
+  "file": {
+    "name": "poe1-campaign-guide.json",
+    "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe1/poe1-campaign-guide.json",
+    "sha256": "1e4ed904190b065558ae3fd54d6f465e251bba82d8b142984550207b2b73bff3",
+    "size": 35225
+  }
+}
