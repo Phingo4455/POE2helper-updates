@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "realm": "poe1",
   "channel": "stable",
-  "version": "1.2026.08.26.87e92a04",
-  "contentId": "87e92a04e5e96528ad991c5f33afc241a2764a0c34607221bf7b51bd81951a31",
-  "generatedAt": "2026-08-26T15:17:47.259Z",
+  "version": "1.2026.08.26.7f533d48",
+  "contentId": "7f533d48a63dbbaa44d2351406ae5d78fc1f24fba416eb7befd62384276981c0",
+  "generatedAt": "2026-08-26T16:24:48.605Z",
   "minAppVersion": "0.2.0",
   "sources": [
     "PathOfBuildingCommunity/PathOfBuilding",
@@ -18,8 +18,8 @@
       "id": "translations",
       "name": "poe1-translations.json",
       "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe1/poe1-translations.json",
-      "sha256": "e8ba1e5fc14134cbfca3229f2a39eb97d40efe19c2a0fec9473d579547ff391c",
-      "size": 1879725
+      "sha256": "56a0ed63508f6893c72c1538c01f764664845cb412bb32676b944c2ab7d9b94b",
+      "size": 1582893
     },
     {
       "id": "supplement",
