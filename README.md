@@ -23,9 +23,12 @@ GitHub Actions 每日检查上游数据。新快照必须通过数量阈值、PO
 - 监视 POE2 Wiki 的 Acts quick guide 修订号；信源变化时自动创建 GitHub Issue。
 - 发布带版本、大小和 SHA-256 的赛季数据及开荒路线清单。
 - 新客户端在启动时以及每 6 小时检查数据、路线和程序版本。
+- `latest/poe2-access-token.txt` 保存 POE2 工具当前版本的公开启动资格标识；客户端每次启动必须联网核验。
 
 ## 需要人工核对的内容
 
 `manual/poe2-campaign-guide.json` 是发给所有用户的稳定中文路线。信源变更只会创建提醒，不会把网页文字直接覆盖到客户端。核对任务、永久奖励和小技巧后，更新 `gameVersion`、`guideVersion`、`sourceRevision` 与 `releaseNotes`，再运行 `npm run build` 即可发布。
 
-程序版本由 `manual/app-manifest.json` 和 GitHub Release 安装包组成。发布新版时需要填写版本、更新说明、安装包大小和 SHA-256；客户端会在打开安装包前完成校验。
+程序版本由 `manual/app-manifest.json` 和 GitHub Release 便携 ZIP 组成。发布新版时需要填写版本、更新说明、ZIP 大小和 SHA-256；客户端会在保存 ZIP 前完成校验。
+
+启动资格标识用于让已停止支持的旧版本拒绝启动，不是秘密密码或账户授权。该仓库公开，任何人都能读取这 32 位标识；真正的逐用户授权需要独立鉴权服务。
