@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "realm": "poe2",
   "channel": "stable",
-  "version": "1.2026.09.03.bd1a801b",
-  "contentId": "bd1a801bca35e7e9a41dd49badd94671817846798bd8fb21d42c06c42bbf1eb4",
-  "generatedAt": "2026-09-03T21:03:09.308Z",
+  "version": "1.2026.09.04.7e26905c",
+  "contentId": "7e26905c5fb969d49a263a29e66ea047bf4bbe615bad77637d16f02bc9837f89",
+  "generatedAt": "2026-09-04T20:46:08.339Z",
   "minAppVersion": "0.1.0",
   "sources": [
     "Grinding Gear Games trade2",
@@ -20,8 +20,8 @@
       "id": "translations",
       "name": "poe2-translations.json",
       "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe2-translations.json",
-      "sha256": "e02dcceb775d886082162386bcb97d095cbd8bcd431c3519622b973258dc8d47",
-      "size": 776907
+      "sha256": "b8b8f36b0543f30fcdb28d4e09bc52dafdd5a212057791ed0972d7bbfc9a2a0b",
+      "size": 776908
     },
     {
       "id": "supplement",
@@ -34,21 +34,21 @@
       "id": "tradeStats",
       "name": "poe2-trade-stats.json",
       "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe2-trade-stats.json",
-      "sha256": "6a748b16255edd339b49981df2338287dcf426762e53911909bc8ac062576b76",
-      "size": 1542607
+      "sha256": "5a1dcec94a82e249ee815698b23ccffcc19976b5a4d50a9f101c5d98fc3df2ef",
+      "size": 1542370
     },
     {
       "id": "affixes",
       "name": "poe2-affix-data.json",
       "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe2-affix-data.json",
-      "sha256": "c1bba9948fe4ba15836ef4179a9f5012b8a45bc9a5e583f6a78af9cebdebe41e",
+      "sha256": "5d45e16594f59514355a8c4e5c1fefe0a15952969f01867002d69b37a7d9ae61",
       "size": 1334916
     },
     {
       "id": "icons",
       "name": "poe2-icons.json",
       "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe2-icons.json",
-      "sha256": "504240448fc717d59d2e6c4920cb08074793c50a7297cc5d5719d0f4619e3ffa",
+      "sha256": "d4ae8b62634063bcdfdd86c36ed48448179a74c7e2b58f9b0bfe7748eabba139",
       "size": 722053
     },
     {
