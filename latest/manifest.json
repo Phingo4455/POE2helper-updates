@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "realm": "poe2",
   "channel": "stable",
-  "version": "1.2026.11.08.a19f4431",
-  "contentId": "a19f4431f68bb9a96df51276063e586e6f56b55046db9949322905a8437be2fa",
-  "generatedAt": "2026-11-08T22:05:17.362Z",
+  "version": "1.2026.11.10.a607e079",
+  "contentId": "a607e07904ad232cfb5fbebb5f8f4428591a8d49cc462b64660c0d9cb84c2cae",
+  "generatedAt": "2026-11-10T01:31:23.237Z",
   "minAppVersion": "0.1.0",
   "sources": [
     "Grinding Gear Games trade2",
@@ -34,21 +34,21 @@
       "id": "tradeStats",
       "name": "poe2-trade-stats.json",
       "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe2-trade-stats.json",
-      "sha256": "b3c0cfd923d7bfbc33fcad1afa0f04a0c925761043122d7696bd8bcb324e3157",
-      "size": 1554970
+      "sha256": "9a6b005d447fe058ce1462d6bdc2c0958f85973698b4909fc7ae1f076e86b04b",
+      "size": 1555097
     },
     {
       "id": "affixes",
       "name": "poe2-affix-data.json",
       "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe2-affix-data.json",
-      "sha256": "2db27c35e7ce7d49aee187986596218da3f25f6c5e3f1f06d45b6832ab20bae7",
+      "sha256": "f7c8e78366716d547d2a302cf3e9d4bec46f6ac4f99d02ba1feed5c16c868653",
       "size": 1339239
     },
     {
       "id": "icons",
       "name": "poe2-icons.json",
       "url": "https://raw.githubusercontent.com/Phingo4455/POE2helper-updates/main/latest/poe2-icons.json",
-      "sha256": "d444cb34c3c65d2fa2a9441d8b666f3771d8e4099dac59fc6859f4b35940c296",
+      "sha256": "5759e729418afc98d287a668dd0f880e0278a218799ee50ff14453cc0012c542",
       "size": 724570
     },
     {
